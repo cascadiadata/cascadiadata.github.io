@@ -1,6 +1,6 @@
 # Site settings
-title: Jess Hamilton  
-email: jesshami@gmail.com
+title: Cascadia Urban Analytics Cooperative
+email: urbanuw@uw.edu
 description: > # this means to ignore newlines until "baseurl:"
   The work of a curious design student exploring landscape, data and cities
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -10,6 +10,6 @@ github_username:  jesshami
 
 # Build settings
 markdown: kramdown
-
-paginate: 4
-paginate_path: "blog/page:num"
+port: 4001
+#paginate: 4
+#paginate_path: "blog/page:num"

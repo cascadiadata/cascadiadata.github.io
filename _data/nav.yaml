@@ -1,12 +1,15 @@
-- name: Home
-  path: "#top"
-  section_id: home
-- name: Work
-  path: "#work"
-  section_id: work
 - name: About
   path: "#about"
-  section_id: about  
+  section_id: about
+- name: Projects
+  path: "#projects"
+  section_id: projects
+- name: People
+  path: "#people"
+  section_id: people
+- name: Partners
+  path: "#partners"
+  section_id: partners
 - name: Contact
   path: "#contact"
   section_id: contact

@@ -13,9 +13,14 @@
   font-weight: bold;
 }
 
+/*custom*/
+#projects h2{color:#fff;}
+#projects h3{color:#fff; margin-bottom:0; padding-bottom:0; font-size:1.3em; margin-top:20px;}
+#projects a:hover h3{color:#000;}
+
 /*some basic settings */
 a {
-  color: #939B01;
+  color: #F9CE06;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
@@ -77,7 +82,7 @@ ul.shortcode-list {
   margin: 0 0 20px;
 }
 ul.shortcode-list i {
-  color: #939B01;
+  color: #F9CE06;
   margin-right: 3px;
 }
 
@@ -91,18 +96,19 @@ ul.shortcode-list i {
 }
 .big-social i {
   box-sizing: content-box;
-  margin-bottom: 30px;
-  font-size: 2.57143rem;
-  width: 2.57143rem;
-  height: 2.57143rem;
+  /*margin-bottom: 30px;*/
+  margin-top:-15px;
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
   color: #fff;
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #939B01;
-  border: 3px solid #939B01;
+  background-color: #F9CE06;
+  border: 3px solid #F9CE06;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -112,7 +118,7 @@ ul.shortcode-list i {
   margin: 0;
 }
 .big-social i:hover {
-  border: 3px solid #939B01;
+  border: 3px solid #F9CE06;
   background-color: rgba(249, 206, 6, 0);
 }
 
@@ -186,8 +192,8 @@ ul.shortcode-list i {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
-  background: #939B01;
-  border: 2px solid #939B01;
+  background: #F9CE06;
+  border: 2px solid #F9CE06;
 }
 
 .button:hover {
@@ -430,7 +436,7 @@ ul.info a {
   margin-right: 5px;
 }
 ul.info i {
-  border: 1px solid #939B01;
+  border: 1px solid #F9CE06;
   padding: 5px;
   -moz-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
@@ -438,7 +444,7 @@ ul.info i {
   transition: all 0.1s linear;
 }
 ul.info i:hover {
-  background: #939B01;
+  background: #F9CE06;
   color: #fff;
 }
 
@@ -479,7 +485,7 @@ form input.error, form textarea.error {
   color: #999;
 }
 .pager a:hover {
-  color: #939B01;
+  color: #F9CE06;
 }
 .pager .older {
   float: left;
@@ -584,7 +590,7 @@ form input.error, form textarea.error {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  background: #939B01;
+  background: #F9CE06;
 }
 #footer input.email-address {
   padding: 5px 15px;
@@ -622,7 +628,7 @@ body.screenshot {
 }
 .modBarGraph .bars p.highlighted {
   width: 0;
-  background: #939B01;
+  background: #F9CE06;
   height: 12px;
 }
 
@@ -864,7 +870,7 @@ body.screenshot {
   color: #333;
 }
 .modBlogPost h4 a:hover {
-  color: #939B01;
+  color: #F9CE06;
 }
 .modBlogPost .date {
   font-size: 0.78571rem;
@@ -919,7 +925,7 @@ body.screenshot {
   color: #333;
 }
 .modBlogPost.big h3 a:hover {
-  color: #939B01;
+  color: #F9CE06;
 }
 .modBlogPost.big h4 {
   font-size: 1.7rem;
@@ -1197,7 +1203,7 @@ body.screenshot {
 }
 .modBoxedSlider .caption p {
   display: inline-block;
-  background: #939B01;
+  background: #F9CE06;
   color: #fff;
   font-family: "droid serif";
   margin-bottom: 0;
@@ -1222,7 +1228,7 @@ body.screenshot {
   margin-bottom: 40px;
 }
 .modBoxedTextSlider .box i {
-  color: #939B01;
+  color: #F9CE06;
   font-size: 36px;
   width: 48px;
   height: 48px;
@@ -1233,7 +1239,7 @@ body.screenshot {
   font-size: 1.28571rem;
   letter-spacing: 1px;
   font-style: italic;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 /* Slider */
@@ -2341,10 +2347,10 @@ body.screenshot {
   color: #999;
 }
 .modGallery .gallery-nav li.current {
-  border: 1px solid #939B01;
+  border: 1px solid #F9CE06;
 }
 .modGallery .gallery-nav li.current a {
-  color: #939B01;
+  color: #F9CE06;
 }
 .modGallery ul.gallery img {
   width: 100%;
@@ -2445,7 +2451,7 @@ body.screenshot {
   margin: 0;
 }
 .modIconText .icon-text-circle:hover i {
-  color: #939B01;
+  color: #F9CE06;
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
@@ -2478,10 +2484,10 @@ body {
   color: #999;
 }
 .modMasonryGallery .gallery-nav li.current {
-  border: 1px solid #939B01;
+  border: 1px solid #F9CE06;
 }
 .modMasonryGallery .gallery-nav li.current a {
-  color: #939B01;
+  color: #F9CE06;
 }
 .modMasonryGallery ul.gallery {
   margin: 0;
@@ -2568,7 +2574,7 @@ body {
 .modMilestone i {
   font-size: 36px;
   color: #333;
-  background: #939B01;
+  background: #F9CE06;
   width: 90px;
   height: 90px;
   -moz-border-radius: 45px;
@@ -2659,7 +2665,7 @@ body {
 }
 
 .modPriceBox.featured .info {
-  border-top: 4px solid #939B01;
+  border-top: 4px solid #F9CE06;
 }
 
 .modPriceBox:hover {
@@ -2674,7 +2680,7 @@ body {
   width: 66%;
   margin: 0 auto;
   height: 2px;
-  background: #939B01;
+  background: #F9CE06;
   display: block;
 }
 
@@ -2774,7 +2780,7 @@ body {
   border: 1px solid #999;
 }
 .modStylePanel a#yellow {
-  background: #939B01;
+  background: #F9CE06;
 }
 .modStylePanel a#red {
   background: #e92b05;
@@ -2862,7 +2868,7 @@ body {
   -moz-border-radius: 18px;
   -webkit-border-radius: 18px;
   border-radius: 18px;
-  background: #939B01;
+  background: #F9CE06;
   color: #fff;
   text-align: center;
   font-size: 1.125rem;
