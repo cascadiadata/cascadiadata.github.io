@@ -2,7 +2,7 @@
 title: Cascadia Urban Analytics Cooperative
 email: urbandat@uw.edu
 description: > # this means to ignore newlines until "baseurl:"
-  The work of a curious design student exploring landscape, data and cities
+  A partnership bewteen the University of Washington and the University of British Columbia, the focus of the Cascadia Urban Analytics Cooperative is data science for social good in an urban context: high-impact data science and analytics projects that aim to understand and extract valuable actionable information out of data from urban environments in the Cascadia region.
 #baseurl: "/cuac/"  the subpath of your site, e.g. /blog/
 url: "http://cascadiadata.org" # the base hostname & protocol for your site
 twitter_username: urbanuw
