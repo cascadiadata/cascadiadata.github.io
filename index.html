@@ -1,41 +1,10 @@
 ---
 layout: default
-<!--slides:
-  - bg: images/@stock/fullscreen-slide-1.jpg
-    title: we are a tough team
-    tagline: we deliver great things that you definitely love ...
-    buttons:
-      - text: view portfolio
-        class: small
-        url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-      - text: purchase now
-        class: small boxed
-        url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-  - bg: http://themes.blahlab.com/squarebox/wp-content/uploads/2014/12/out-short.jpg
-    title: creative &amp; powerful
-    tagline: It it very happy thing to make great website
-    buttons:
-      - text: purchase now
-        class: small
-        url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-      - text: view features
-        class: small boxed
-        url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-    videos:
-      - type: webm
-        url: http://themes.blahlab.com/squarebox/wp-content/uploads/2014/11/out-short.webm
-      - type: mp4
-        url: http://themes.blahlab.com/squarebox/wp-content/uploads/2014/11/out-short.mp4
-  - bg: ../images/@stock/fullscreen-slide-3.jpg
-    title: Always have a dream
-    tagline: It is very quick to build a website with this theme
-    buttons:
-      - text: Purchase now
-        class: small
-        url: http://themeforest.net/user/honryou/portfolio?ref=honryou
-      - text: View features
-        class: boxed small
-        url: http://themeforest.net/user/honryou/portfolio?ref=honryou-->
+banner:
+  - bg: ../images/sidewalk-banner.jpg
+    title: Cascadia Urban
+    tagline: Analytics Cooperative
+    caption: OSM Pedestrian Networks for Seattle and Vancouver 
 works:
   - image: ../images/work/tactile/map-thumbbw.jpg
     title: Urban Data Science for Social Good
@@ -152,6 +121,14 @@ socials:
     link_to: mailto:urbandat@uw.edu
 
 ---
+{% for banner in page.banner %}
+<section id="banner" style="background-image: url({{banner.bg}});">
+  <div class="inner">
+  <h2>{{banner.title}}<br><span>{{banner.tagline}}</span></h2>
+  </div>
+  <div class="caption">{{banner.caption}}</div>
+</section>
+ {% endfor %}
 <!--<div class='mod modFullscreenSlider'>
   <div class='fullscreen_slideshow' data-autostop='off'>
     <a class='sequence-prev' href='javascript:void(0);'>
@@ -209,8 +186,6 @@ socials:
 <div class='full parallax' style='background-image: url(../images/mtnbg.png);'>
   <div class='row'>
     <div class='large-10 columns large-centered'>
-      <div class='spacing'></div>
-      {% include section-header.html class="alt" title="Cascadia Urban Analytics Cooperative" %}
       <p style='font-size: 1.2rem'>
       Over 80% of the planet is affected by increased urbanization – a clarion call for evidence-based innovation to improve the resiliency, health, and well-being of cities and their inhabitants. To lead a focused response, the University of Washington (through a partnership between the <a href="http://escience.washington.edu/">UW eScience Institute</a> and <a href="http:urban.uw.edu">Urban@UW</a>) and the University of British Columbia (through a partnership between <a href="http://dsi.ubc.ca/">UBC’s Data Science Institute</a> and <a href="https://sustain.ubc.ca/">UBC’s Sustainability Initiative</a>) have formed the Cascadia Urban Analytics Cooperative (CUAC), an applied, interdisciplinary, regional center that will bring together academic researchers, students, and public stakeholder groups to address topics affecting citizens of the Cascadia region. The specific focus of the Cascadia Urban Analytics Cooperative will be data science for social good in an urban context: high-impact data science and analytics projects that aim to understand and extract valuable actionable information out of data from urban environments in the Cascadia region.
        </p>
