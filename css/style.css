@@ -45,6 +45,9 @@ right: 20px;}
 [class*="column"] + [class*="column"]:last-child {
     float: left;
 }
+#people-cols .mod.modTeamMember.style-2{
+  min-height:415px;
+}
 
 
 /*some basic settings */
