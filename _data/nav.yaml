@@ -7,11 +7,11 @@
 - name: People
   path: "#people"
   section_id: people
+#- name: News + Events
+ # path: /news
 - name: Partners
   path: "#partners"
   section_id: partners
 - name: Contact
   path: "#contact"
   section_id: contact
-#  path: blog/
- # section_id: blog

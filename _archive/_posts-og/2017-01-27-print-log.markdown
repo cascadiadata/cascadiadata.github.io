@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  Print Test Log
-date:   2017-01-27 09:33:00
-image:	images/process/print-log.jpg
+title:  New DSSG Projects
+date:   2017-08-04 09:33:00
+image:	images/@stock/blog-1.jpg
 excerpt:
  Settings used for 3D printing Tactile MapTiles.
 categories:
   - Web Development
-tags: design business
 author: Jess
 ---
 

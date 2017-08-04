@@ -1,14 +1,12 @@
 ---
-layout: blog
+layout: news
 ---
-
-<!-- THIS FILE IS JUST A DESIGN TEMPLATE, THE POSTS DATA ARE NOT DYNAMIC -->
 
 <div class='full' style='background: #f5f5f5;'>
   <div class='row'>
     <div class='large-12 columns'>
       <div class='masonry-container'>
-        {% for post in site.posts %}
+        {% for post in site.categories.News %}
         <div class='masonry mod modBlogPost popin appear'>
         {% if post.image %}
           <div class='images'>
@@ -21,14 +19,14 @@ layout: blog
             <p>
               {{post.excerpt}}
             </p>
-            <div class='tags'>
+          <!--  <div class='tags'>
             {% for cat in post.categories %}
               <a href="#">{{cat}}</a>
               {% unless forloop.last %}
                       ,
                   {% endunless %}
               {% endfor %}
-            </div>
+            </div>-->
           </div>
         </div>
         {% endfor %}
@@ -36,13 +34,4 @@ layout: blog
     </div>
   </div>
   <div class='four spacing'></div>
-</div>
-<div class='full no-padding' style='background: #111'>
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p>2017 Jess Hamilton. All rights reserved.</p>
-    </div>
-  </div>
-  <div class='spacing'></div>
 </div>
