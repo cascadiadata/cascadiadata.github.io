@@ -2,9 +2,6 @@
 <div class='full no-padding' style='background: #111'>
   <div class='two spacing'></div>
   <div class='row'>
-    <div class='small-9 columns'>
-      <p>©2017 {{site.title}}. All rights reserved.</p>
-    </div>
     {% for social in page.socials %}
       <div class='small-2 large-1 columns'>
         <div class='big-social'>
@@ -14,7 +11,14 @@
         </div>
       </div>
     {% endfor %}
-  </div>
+<div class="large-4 columns">&nbsp;</div>
+<div class='small-1 large-6 columns'>
+  <a class="twitter-timeline" data-height="300" data-link-color="#F9CE63" href="https://twitter.com/CascadiaData">Tweets by CascadiaData</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+ </div> 
+  </div> 
+  <div class="row">
+      <p>©2017 {{site.title}}. All rights reserved.</p>
+  </div>  
   <div class='spacing'></div>
 </div>
 <script src="{{ "/javascripts/jquery.countTo.js" | prepend: site.baseurl }}" type="text/javascript"></script>
@@ -28,7 +32,6 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-61502047-2', 'auto');
   ga('send', 'pageview');
 

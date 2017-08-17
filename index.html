@@ -260,12 +260,19 @@ partners:
   - image: ../images/partners/ischool.jpg
     link: https://ischool.uw.edu/
     row: bottom
+  - image: ../images/partners/iuts.jpg
+    link: https://www.ce.washington.edu/people/faculty/banx
+    row: bottom
 
 socials:
   - title: Email
     text: urbandat@uw.edu
     icon_class: fa fa-envelope
     link_to: mailto:urbandat@uw.edu
+  - title: Twitter
+    text: CascadiaData
+    icon_class: fa fa-twitter
+    link_to: https://twitter.com/CascadiaData
 
 ---
 {% for banner in page.banner %}
@@ -399,7 +406,7 @@ socials:
           </div>
           </div>
           {% else %}
-           <div class="small-6 medium-2 large-2 columns">
+           <div class="small-6 medium-3 large-3 columns">
           <div class='mod modTeamMember style-2' style="margin-bottom:20px;">
            <a href="{{partner.link}}"><img width="272" height="180" alt="" src="{{partner.image}}" /></a>
           </div>
