@@ -7,8 +7,8 @@
 - name: People
   path: "#people"
   section_id: people
-#fixed folder name - name: News + Events
- # path: /news
+fixed folder name - name: News + Events
+  path: /news
 - name: Partners
   path: "#partners"
   section_id: partners
