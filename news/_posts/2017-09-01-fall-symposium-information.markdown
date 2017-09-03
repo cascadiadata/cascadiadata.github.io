@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CUAC Fall Symposium Agenda
-date:   2015-03-23 10:57:12
+date:   2017-09-01 10:57:12
 image:
 excerpt:
   The goal of this invitation-only event is to identify joint projects to pursue in the coming year, and to build the CUAC community.  We will be emphasizing existing projects with their own inertia that can benefit from CUAC engagement (analytics support, gap funding, cross-border connections).
