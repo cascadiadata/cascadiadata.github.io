@@ -39,4 +39,8 @@ Location: The Husky Union Building (HUB) at the University of Washington: Room 2
 
 #### == September 12, 2017: 8:30am-12:00pm ==
 
-Information coming soon.
+Discussion about “The Promise of Uniform Urban Metrics”
+
+In 2014, the International Standards Organization (ISO) approved ISO 37120, the first standard for urban sustainability and performance. The ISO project originated in the World Bank and is now administered by the World Council on City Data (WCCD)(http://dataforcities.org) , part of the University of Toronto’s Global Cities Institute. There are about 50 cities currently enrolled in the WCCD, with another 50 applications under review.
+
+On Tuesday morning, CUAC-related faculty and students from UW and UBC are invited to participate in a discussion of the research and operational opportunities associated with the emergence of ISO 37120. Joining us will be representatives of the cities of Seattle, Portland, Surrey, and Vancouver (Seattle, Portland, and Surrey are already members of the WCCD; Vancouver is currently considering joining). In addition, representatives of Microsoft, software and consulting firm iSoftStone, and Western Washington University will attend. We will be joined by phone by the leadership of the WCCD.
