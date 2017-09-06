@@ -44,3 +44,35 @@ Discussion about “The Promise of Uniform Urban Metrics”
 In 2014, the International Standards Organization (ISO) approved ISO 37120, the first standard for urban sustainability and performance. The ISO project originated in the World Bank and is now administered by the World Council on City Data (WCCD)(http://dataforcities.org) , part of the University of Toronto’s Global Cities Institute. There are about 50 cities currently enrolled in the WCCD, with another 50 applications under review.
 
 On Tuesday morning, CUAC-related faculty and students from UW and UBC are invited to participate in a discussion of the research and operational opportunities associated with the emergence of ISO 37120. Joining us will be representatives of the cities of Seattle, Portland, Surrey, and Vancouver (Seattle, Portland, and Surrey are already members of the WCCD; Vancouver is currently considering joining). In addition, representatives of Microsoft, software and consulting firm iSoftStone, and Western Washington University will attend. We will be joined by phone by the leadership of the WCCD.
+
+Tentative agenda:
+* 8:00-8:45: Coffee (and look at CUAC student posters)
+* 8:45-9:00: Introductions
+* 9:00-9:45: Discussion with Patricia McCarney (WCCD President) about ISO 37120: What’s measured? How can the data be used? How does ISO 37120 compare with
+other urban metrics? What are the advantages for cities being part of WCCD, both
+now and in the future? What is the possibility of national-level endorsement of
+WCCD leading to the addition of all cities from several countries? What are the big
+data implications of automated urban data collection? How can WCCD be used for
+Data Science for Social Good projects? Discussion of forthcoming ISO standards for
+Smart Cities (ISO 37122) and Resilient Cities (ISO 37123); how do these differ from
+ISO 37120? What are the opportunities for piloting these new sets of metrics in
+Cascadia? Can ISO standards be applied to larger jurisdictions, including entire
+Metros (e.g., Toronto) and entire regions (e.g., Cascadia Corridor)? What would be
+required for university campuses be ISO certified as small “test-bed cities”?
+* 9:45-10:15: Urban analytic and sustainability research opportunities presented by WCCD data
+for collaborations among universities and cities in a variety of domains (e.g.,
+transportation, housing, healthcare). Can urban modeling incorporate WCCD data?
+* 10:15-10:45: Private sector (startups; established tech companies) opportunities for urban
+analytic software and “smart city” sensor network development using WCCD data
+* 10:45-11:00: Next steps
+* 11:00 Break (Attendees for Microsoft event head to downtown Seattle)
+* 11:15-noon: Discussion among city representatives and remaining CUAC faculty and students
+and WCCD staff about operational challenges and opportunities associated with
+ISO data collection and potential role of universities in facilitating the process
+
+*To be ISO certified, a city must measure up to 100 agreed-upon urban parameters in standard
+ways. Once independently verified by outside consulting firms, these data sets allow the first
+“apples-to- apples” comparisons of 17 urban topics across cities around the world. Like with
+LEED, cities are ranked as Platinum, Gold, Silver, Bronze based on the number of metrics (out of
+100) they agree to measure, not the values of those metrics. The goal is data sharing and
+transparency, to help cities achieve operational and sustainability goals more quickly.
