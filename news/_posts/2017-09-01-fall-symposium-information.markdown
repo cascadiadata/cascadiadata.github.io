@@ -37,7 +37,7 @@ Location: The Husky Union Building (HUB) at the University of Washington: Room 2
 * 4:45-5:00 Wrap up and next steps
 * 5:00-6:00 Break and travel to dinner at Agua Verde, 1303 NE Boat Street
 
-#### == September 12, 2017: 8:30am-12:00pm ==
+#### == September 12, 2017: 8:00am-12:00pm ==
 
 Discussion on “The Promise of Uniform Urban Metrics”
 
