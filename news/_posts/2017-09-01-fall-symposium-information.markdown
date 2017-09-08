@@ -16,7 +16,7 @@ Format: Discussion-oriented workshop of about 20 people: 6 UBC faculty, 6-8 UW f
 
 Themes: 1. Equitable mobility and transportation; 2. Housing stability; 3. Responsible data management.
 
-Location: The Husky Union Building (HUB) at the University of Washington: Room 214.
+Location: The Husky Union Building at the University of Washington, Room 214, 4001 E Stevens Way NE, Seattle, WA 98195.
 
 > The Cascadia Urban Analytics Cooperative is an applied, interdisciplinary, regional center that brings together academic researchers, students, and public stakeholder groups to address topics affecting citizens of the Cascadia region.
 
