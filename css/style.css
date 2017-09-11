@@ -42,6 +42,21 @@ position: absolute;
 bottom: 0px;
 right: 20px;}
 
+#banner h3{display: inline-block;
+padding: 10px 10px 10px 10px;
+opacity: .9;
+text-align: center;
+line-height: 1em;
+color: #fff;}
+
+#banner h4{display: inline-block;
+padding: 10px 10px 10px 10px;
+opacity: .9;
+text-align: center;
+line-height: 1em;
+color: #fff;}
+
+
 [class*="column"] + [class*="column"]:last-child {
     float: left;
 }
@@ -64,11 +79,14 @@ a:hover {
 body {
   color:#666;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
+h3, h4 {
+  letter-spacing: 1px;
+}
 .centered-text {
   text-align: center;
 }
