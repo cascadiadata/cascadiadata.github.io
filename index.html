@@ -3,7 +3,9 @@ layout: default
 banner:
   - bg: ../images/sidewalk-banner.jpg
     title: Cascadia Urban
-    tagline: Analytics Cooperative
+    title2: Analytics Cooperative
+    tagline1: Regionally focused research in responsible urban data science  
+    tagline2: A joint initiative between Microsoft, the University of Washington, and the University of British Columbia
     caption: OSM Pedestrian Networks for Seattle and Vancouver 
 works:
   - image: ../images/work/tactile/map-thumbbw.jpg
@@ -278,7 +280,9 @@ socials:
 {% for banner in page.banner %}
 <section id="banner" style="background-image: url({{banner.bg}});">
   <div class="inner">
-  <h2>{{banner.title}}<br><span>{{banner.tagline}}</span></h2>
+  <h2>{{banner.title}}<br><span>{{banner.title2}}</span></h2>
+  <p>{{banner.tagline1}}</p>
+  <p>{{banner.tagline2}}</p>
   </div>
   <div class="caption">{{banner.caption}}</div>
 </section>
