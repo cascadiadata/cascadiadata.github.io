@@ -78,7 +78,9 @@ text-align: center;
 line-height: 1em;
 color: #fff;}
 
-#banner p{}
+#banner p{text-align: center;
+line-height: 1em;
+color: #fff;}
 
 
 [class*="column"] + [class*="column"]:last-child {
