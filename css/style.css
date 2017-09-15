@@ -78,6 +78,8 @@ text-align: center;
 line-height: 1em;
 color: #fff;}
 
+#banner p{}
+
 
 [class*="column"] + [class*="column"]:last-child {
     float: left;
