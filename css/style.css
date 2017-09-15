@@ -14,9 +14,31 @@
 }
 
 /*custom*/
-#projects h2{color:#fff;}
-#projects h3{color:#fff; margin-bottom:0; padding-bottom:0; font-size:1.3em; margin-top:20px;}
+#projects h3{color:#000; 
+    margin-bottom:0; 
+    padding-bottom:0; 
+    font-size:1.3em; 
+    margin-top:20px; 
+    text-transform:uppercase;}
+
 #projects a:hover h3{color:#000;}
+#projects h4 a{color:#000;}
+#projects h4 a:hover{color:#fff;}
+#projects ul.alt {margin-top:20px; 
+    list-style:none;}
+#projects .button.boxed {border: 2px solid #000;}
+
+#projects article.project-cat img{
+  margin:0 auto;
+  width:70%;
+  max-width:200px;
+  display:block;}
+
+#projects article.project-cat {text-align:center;}  
+#projects article.project-cat h3 {color:#000;}
+
+figcaption{font-size:.8em; padding:0 20px;}
+
 #banner{
     background-attachment: scroll, fixed;
     background-color: #494d53;

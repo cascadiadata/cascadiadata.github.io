@@ -1,0 +1,32 @@
+---
+layout: news
+---
+
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-9 columns'>
+      <div class='mod modBlogPost big'>
+        <div class='images'>
+          {% if page.img_content %}
+            <div class='image'><img alt="{{page.img_alt}}" src="{{site.url}}/{{page.img_content}}" /></div>
+            <figcaption>{{page.img_caption}}</figcaption>
+          {% endif %}
+        </div>
+        <div class='content'>
+
+          <h3><a href="{{page.url}}">{{page.name}}</a></h3>
+          {{ content }}
+        </div>
+      </div>
+      <div class='two spacing'></div>
+  </div>
+</div>
+<div class='full no-padding' style='background: #111'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p>2017 {{site.title}}. All rights reserved.</p>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>

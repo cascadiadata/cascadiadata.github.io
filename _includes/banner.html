@@ -1,0 +1,10 @@
+{% for banner in page.banner %}
+<section id="banner" style="background-image: url({{banner.bg}});">
+  <div class="inner">
+  <h2>{{banner.title}}<br><span>{{banner.title2}}</span></h2>
+  <p>{{banner.tagline1}}</p>
+  <p>{{banner.tagline2}}</p>
+  </div>
+  <div class="caption">{{banner.caption}}</div>
+</section>
+ {% endfor %}

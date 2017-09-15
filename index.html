@@ -8,12 +8,10 @@ banner:
     tagline2: A joint initiative between Microsoft, the University of Washington, and the University of British Columbia
     caption: OSM Pedestrian Networks for Seattle and Vancouver 
 works:
-  - image: ../images/work/tactile/map-thumbbw.jpg
-    title: Urban Data Science for Social Good
+  - title: Urban Data Science for Social Good
     link_to: dssg.html
     desc: 
-  - image: ../images/work/cambodia/thumb.jpg
-    title: Smart Cities Research
+  - title: Smart Cities Research
     link_to: http://urbanalytics.uw.edu
     desc:
 people:
@@ -273,148 +271,9 @@ socials:
     link_to: https://twitter.com/CascadiaData
 
 ---
-{% for banner in page.banner %}
-<section id="banner" style="background-image: url({{banner.bg}});">
-  <div class="inner">
-  <h2>{{banner.title}}<br><span>{{banner.title2}}</span></h2>
-  <p>{{banner.tagline1}}</p>
-  <p>{{banner.tagline2}}</p>
-  </div>
-  <div class="caption">{{banner.caption}}</div>
-</section>
- {% endfor %}
-<a id='about'></a>
-<div class='full parallax' style='background-image: url(../images/mtnbg.png);'>
-  <div class='row'>
-    <div class='large-10 columns large-centered'>
-      <p style='font-size: 1.2rem'>
-      Over 80% of the planet is affected by increased urbanization – a clarion call for evidence-based innovation to improve the resiliency, health, and well-being of cities and their inhabitants. To lead a focused response, the University of Washington (through a partnership between the <a href="http://escience.washington.edu/">UW eScience Institute</a> and <a href="http:urban.uw.edu">Urban@UW</a>) and the University of British Columbia (through a partnership between <a href="http://dsi.ubc.ca/">UBC’s Data Science Institute</a> and <a href="https://sustain.ubc.ca/">UBC’s Sustainability Initiative</a>) have formed the Cascadia Urban Analytics Cooperative (CUAC), an applied, interdisciplinary, regional center that will bring together academic researchers, students, and public stakeholder groups to address topics affecting citizens of the Cascadia region. The specific focus of the Cascadia Urban Analytics Cooperative will be data science for social good in an urban context: high-impact data science and analytics projects that aim to understand and extract valuable actionable information out of data from urban environments in the Cascadia region.
-       </p>
-      <div class='two spacing'></div>
-    </div>
-  </div>
-</div>
-</div>
-<div class='full no-padding' style='background: #F9CE06; color: #fff' id="projects">
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-       {% include section-header.html title="Projects" class="alt" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  </div>
-  <div class='mod modCallToAction'>
-  <a id='projects'></a>
-    <div class='row'>
-		{% for work in page.works %}
-          <a class='boxed button large-12 columns' href='{{work.link_to}}'>
-           	<h3 style="display:block;">{{work.title}}</h3>
-            <p>{{work.desc}}</p>  
-          </a> 
-        {% endfor %}
-    </div>
-  </div>
-  <div class='four spacing'></div>
-</div>
-<a id='people'></a>
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html class="alt" title="People" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row people-cols'>
-    {% for people in page.people %}
-      <div class='small-6 medium-2 large-2 columns'>
-        <div class='mod modTeamMember style-2'>
-          <div class='member'>
-            <img class="avatar" width="250" height="250" alt="" src="{{people.avatar}}" />
-           <div class='overlay'>
-              <ul class='socials'>
-                {% for social in people.socials %}
-                  <li>
-                    <a href='{{social.link}}'>
-                      <i class='fa fa-{{social.icon}}'></i>
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-          <h3>{{people.name}}</h3>
-          <p class='position'>{{people.position}}</p>
-          <p>{{people.desc}}</p>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-
-<div class='full no-padding'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html class="alt" title="Affiliates" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row people-cols'>
-    {% for affiliate in page.affiliates %}
-      <div class='small-6 medium-2 large-2 columns'>
-        <div class='mod modTeamMember style-2'>
-          <div class='member'>
-            <img class="avatar" width="250" height="250" alt="" src="{{affiliate.avatar}}" />
-           <div class='overlay'>
-              <ul class='socials'>
-                {% for social in affiliate.socials %}
-                  <li>
-                    <a href='{{social.link}}'>
-                      <i class='fa fa-{{social.icon}}'></i>
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-          <h3>{{affiliate.name}}</h3>
-          <p class='position'>{{affiliate.home}}</p>
-          <p>{{affiliate.desc}}</p>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  <div class='three spacing'></div>
-</div>
-
-<div class='full' style='background:#999; color: #fff;' id="partners">
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html class="alt" title_style="color: #fff;" title="Partners" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-        <div class='clients'>
-          {% for partner in page.partners %}
-          {% if partner.row == "top" %}
-          <div class="small-6 medium-4 large-4 columns">
-          <div class='mod modTeamMember style-2' style="margin-bottom:20px;">
-           <a href="{{partner.link}}"><img width="272" height="180" alt="" src="{{partner.image}}" /></a>
-          </div>
-          </div>
-          {% else %}
-           <div class="small-6 medium-3 large-3 columns">
-          <div class='mod modTeamMember style-2' style="margin-bottom:20px;">
-           <a href="{{partner.link}}"><img width="272" height="180" alt="" src="{{partner.image}}" /></a>
-          </div>
-          </div>
-          {% endif %}
-          {% endfor %}
-    </div>
-  </div>
-  <div class='two spacing'></div>
-</div>
+{% include banner.html %}
+{% include about.html %}
+{% include projects.html %}
+{% include people.html %}
+{% include partners.html %}
 
