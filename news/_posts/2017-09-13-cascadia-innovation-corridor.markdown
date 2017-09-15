@@ -2,6 +2,7 @@
 layout: post
 title:  Cascadia Innovation Corridor Conference
 date:   2017-09-13 10:57:12
+image: images/blog/thaisa_way.jpg
 excerpt:
   Thaisa Way speaks on behalf of CUAC at the Cascadia Innovation Corridor Conference
 author: Emily F. Keller
