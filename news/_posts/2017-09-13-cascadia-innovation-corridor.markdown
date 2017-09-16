@@ -18,5 +18,5 @@ The two-day conference, hosted by [Microsoft](https://www.microsoft.com/en-us/),
 
 [The Cascadia Urban Analytics Cooperative](http://www.washington.edu/news/2017/02/23/universities-establish-joint-center-to-use-data-for-social-good-in-cascadia-region/) is a Microsoft-funded initiative established earlier this year as part of the [Cascadia Innovation Corridor](https://news.microsoft.com/2017/09/12/new-partnerships-advance-the-cascadia-innovation-corridor/), which was launched in September 2016. New Cascadia Innovation Corridor initiatives presented at the conference include:
 * A feasibility study for high-speed rail travel in the region.
-* The University of British Columbia joining the Global Innovation Exchange, with founding partners the University of Washington and Tsinghua University in Beijing.
+* The University of British Columbia joins the Global Innovation Exchange, with founding partners the University of Washington and Tsinghua University in Beijing.
 * Plans to launch the Seattle-Vancouver Financial Innovation Network later this year.
