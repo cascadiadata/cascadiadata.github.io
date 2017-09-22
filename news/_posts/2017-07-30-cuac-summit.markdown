@@ -4,7 +4,7 @@ title:  Cascadia Urban Analytics Cooperative Summit
 date:   2017-07-30 10:57:12
 image:  images/cuac_summit.jpg
 excerpt:
-  Thaisa Way speaks on behalf of CUAC at the Cascadia Innovation Corridor Conference
+  The first CUAC Summit brings fellows, faculty, data scientists and City agencies together.
 author: Emily F. Keller
 ---
 
