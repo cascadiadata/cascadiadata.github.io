@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  CUAC Holds Fall Symposium to Identify Research Projects
-date:   2017-09-13 10:57:12
-image:  images/cuac_symposium.jpg
+date:   2017-09-16 10:57:12
 excerpt:
   Faculty, students and researchers discuss projects on housing, transportation and neighborhood change at the CUAC Fall Symposium.
 author: Emily F. Keller
