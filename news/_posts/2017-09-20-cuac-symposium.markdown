@@ -12,7 +12,7 @@ To understand trends in housing affordability, neighborhood change and multi-mod
 
 Examining urban ecology and migration patterns, homelessness and development in relation to transit network planning and population health indicators was the subject of discussion at the Cascadia Urban Analytics Cooperative (CUAC) [Fall Symposium](http://cascadiadata.org/news/2017/09/01/fall-symposium-information.html) September 11-12, 2017. The event took place at the University of Washington (UW), following the [CUAC Summit](http://cascadiadata.org/news/2017/07/30/cuac-summit.html) at the University of British Columbia (UBC) in July. 
 
-The goal of the symposium was to identify collaborative research projects to pursue in the coming year. CUAC supports projects with a regional focus, participation at UW and UBC, a connection to government or community stakeholders to bridge research and policy, and an innovative use of complex data. 
+The goal of the symposium was to identify collaborative research projects to pursue in the coming year by bringing students and faculty together from a diverse range of disciplines and departments. CUAC supports projects with a regional focus, participation at UW and UBC, a connection to government or community stakeholders to bridge research and policy, and an innovative use of complex data.
 
 #### == Day 1: Urban Data Research in the Cascadia Region ==
 
@@ -24,7 +24,7 @@ Transportation projects discussed at the symposium included the integration of d
 
 Discussions around the cross-cutting theme of responsible data management centered on the importance of data governance and balancing the extraction of usable information for network planning and policy decisions with the protection of individuals who are represented by the data. Participants noted the challenges of working with historical data, negotiating data licenses, and integrating disparate data sets in a comparable format.
 
-Symposium participants included professors and students in the fields of landscape architecture, data science, urban analytics, neuroscience, community and regional planning, sociology, nursing and health care, urban design and planning, social work, statistics, computer science and engineering, real estate, population and public health, and civil engineering. 
+Many of the symposium participants, including faculty from the newly created [Department of Real Estate in the College of Built Environments](http://realestate.washington.edu/about/think-runstad/directors-message/), were meeting to discuss overarching issues for the first time. They included professors and students in the fields of landscape architecture, data science, urban analytics, neuroscience, community and regional planning, sociology, nursing and health care, urban design and planning, social work, statistics, computer science and engineering, real estate, population and public health, and civil engineering. 
 
 #### == Day 2: International Standards for Urban Metrics ==
 
