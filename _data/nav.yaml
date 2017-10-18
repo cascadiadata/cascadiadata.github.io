@@ -13,6 +13,6 @@
 - name: Partners
   path: "#partners"
   section_id: partners
-- name: Contact
+- name: Get Involved
   path: "#contact"
-  section_id: contact
+  section_id: get_involved

@@ -630,7 +630,7 @@ form input.error, form textarea.error {
   margin-bottom: 25px;
 }
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-  color: #eee;
+  color: #fff;
 }
 #footer ul {
   margin: 0;
@@ -640,7 +640,7 @@ form input.error, form textarea.error {
   line-height: 1.875rem;
 }
 #footer ul a {
-  color: #666;
+  color: #222;
 }
 #footer ul a:hover {
   color: #eee;

@@ -44,7 +44,7 @@ Create a descriptive comparative project that looks at methods for assessing hom
 <b>Emergency Services (Opioid Epidemic):</b>
 Examine and map emergency service calls in relation to services for opioid use and mental health issues. Utilize emergency response data from the fire department, Medic One Foundation, and Seattle & King County Public Health Department. 
 
-<b>Model for connecting jurisdictional data related to social determinants of health:</b> 
+<b>Model for Connecting Jurisdictional Data Related to Social Determinants of Health:</b> 
 With public health and sociology researchers, gather data from public and private data resources: Population Data BC, the Centers for Disease Control, the Coroners Service of British Columbia, and health care service providers. Create a model connecting jurisdictional data related to social determinants of health, using the opioid epidemic as a case study. Examine differences in public versus private health data across the border. Develop strategies for inter-agency data sharing and interoperability.
 
 <b>Transportation Modeling: Best Practices and Standards:</b>
@@ -59,13 +59,13 @@ Data collection and analysis strategies:
 * assess the potential impacts of new technologies on future equity and accessibility
 * use market segmentation and behavioral metrics to see which groups are underserved by current transportation
 
-<b>Data Science-enabled “bottom-up” understanding, e.g. housing, transportation, jobs, social, and substance abuse:</b>
+<b>Data Science-Enabled “Bottom-Up” Understanding, e.g. Housing, Transportation, Jobs, Social, and Substance Abuse:</b>
 Explore the paths along which processes take place that lead to outcomes of homelessness, drug use, employment, housing and transportation (availability, constraints and mode choice). Provide research to understand how processes drive decisions, activities and outcomes through a variety of domains in the context of urban analytics, including social and demographic factors.
 
 <b>Land Parcel Dataset:</b>
 Partner with government agencies, indigenous communities, and real estate and land use associations such as the [Urban Development Institute]( http://udi.bc.ca/) and the [Urban Land Institute](https://uli.org/) to create a land parcel data set showing real estate transactions and land use changes over time. Utilize data sets on property assessments, zoning, land titles and urban planning. The [Integrated Public Use Microdata Series](https://www.ipums.org/) at the University of Minnesota Population Center provides a model. The resulting information may be applicable to CUAC transportation research.
 
-<b>International Housing Market Dataset: Supply-oriented:</b>
+<b>International Housing Market Dataset: Supply-Oriented:</b>
 Create a system to extract data on the rental housing market to see changes in neighborhood density, focus on housing supply instead of demand.
 
 <b>Data Consulting for Cities, Inventory, Needs Assessment:</b>
