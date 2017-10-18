@@ -29,31 +29,29 @@ Going beyond the Cascadia region, Gundula Proksch, Associate Professor in the UW
 
 Breakout groups mixing faculty, local agencies, fellows and researchers yielded the following concepts for long-term projects:
 
-<b>Tracking Climate Change Targets: Visualization Platform</b>
-Create a visualization tool that tracks Seattle and Vancouver’s progress in meeting the goals and targets of their climate action plans and carbon reduction commitments as members of the [Carbon Neutral Cities Alliance]( https://www.usdn.org/public/page/13/CNCA). Track demographic differences to show social equity impacts. Use cross-walking and map the outcome. 
-Data sources: Data from buildings and UW/UBC campuses, City metrics (or method-based estimations), municipal water and electricity data from utilities, smart meter data.
-Who: City agencies, climate-focused groups at each university, urban planners and geographers.
+<b>Tracking Climate Change Targets: Visualization Platform:</b>
+Create a visualization tool that tracks Seattle and Vancouver’s progress in meeting the goals and targets of their climate action plans and carbon reduction commitments as members of the [Carbon Neutral Cities Alliance]( https://www.usdn.org/public/page/13/CNCA). Partner with City agencies, climate-focused academic groups, urban planners and geographers. Track demographic differences to show social equity impacts, use cross-walking and map outcomes. Data sources can include buildings and UW/UBC campuses, City metrics (or method-based estimations), municipal water and electricity data from utilities, smart meter data.
 
-<b>Comparative Legal Review: Access to Data, Governance</b>
+<b>Comparative Legal Review: Access to Data, Governance:</b>
 To shed light on the processes around gaining access to data, conduct a legal review. Explore legal differences in Seattle and Vancouver related to privacy, civic jurisdiction, public or private ownership, potential for data repositories to improve access to data, interest in linking data across topics about subjects, given data access controls. 
 
-<b>Impacts of Transit Corridor Development on Equity, Housing, Gentrification and Future Growth</b>
-Examine connections between transit, public health, population and housing trends through transit health analytics, environmental health imaging over time, and the use of predictive methods and modeling to demonstrate immediate opportunities for health benefits. Gather data through air quality and pedestrian sensors, traffic data, emissions per transit type, public engagement, and volunteers using sensors or breathing tests. Partner with City public health departments, academics in urban design and planning, transit and public health researchers, local transit agencies and experts in visual storytelling.
+<b>Impacts of Transit Corridor Development on Equity, Housing, Gentrification and Future Growth:</b>
+Examine connections between transit, public health, population and housing trends through transit health analytics, environmental health imaging over time, and the use of predictive methods and modeling to demonstrate immediate opportunities for health benefits. Gather data through air quality and pedestrian sensors, traffic data, emissions per transit type, public engagement, and volunteers using sensors or breathing tests. Partner with City public health departments, local transit agencies, experts in visual storytelling, and researchers in urban design and planning, transit and public health.
 
-<b>Homelessness and Service Availability: Mapping, Comparative Analytics</b>
+<b>Homelessness and Service Availability: Mapping, Comparative Analytics:</b>
 Create a descriptive comparative project that looks at methods for assessing homelessness and how health systems create and support the homeless. Use surveys to map homelessness in both cities, and follow people longitudinally. 
 
-<b>Emergency Services (Opioid Epidemic)</b>
+<b>Emergency Services (Opioid Epidemic):</b>
 Examine and map emergency service calls in relation to services for opioid use and mental health issues. Utilize emergency response data from the fire department, Medic One Foundation, and Seattle & King County Public Health Department. 
 
-<b>Model for connecting jurisdictional data related to social determinants of health</b> 
+<b>Model for connecting jurisdictional data related to social determinants of health:</b> 
 With public health and sociology researchers, gather data from public and private data resources: Population Data BC, the Centers for Disease Control, the Coroners Service of British Columbia, and health care service providers. Create a model connecting jurisdictional data related to social determinants of health, using the opioid epidemic as a case study. Examine differences in public versus private health data across the border. Develop strategies for inter-agency data sharing and interoperability.
 
-<b>Transportation Modeling: Best Practices and Standards</b>
+<b>Transportation Modeling: Best Practices and Standards:</b>
 Create scalable best practices for transportation modeling in Surrey and Seattle that account for the variety of methods used to measure a commute.
 
-<b>Transportation Accessibility and Equity</b>
-To determine the relationship between transportation, population health and equity, collect data from a wide range of sources: health service providers, organizations that serve the homeless, population-level indicators, surveys and mobile health devices. Examine the transportation accessibility needs of vulnerable communities and populations, and links between mobility and gentrification. Examine the extent to which land-use plans are designed to support existing neighborhoods versus shaping future growth, and what happens to those neighborhoods after the development completes.
+<b>Transportation Accessibility and Equity:</b>
+To determine the relationship between transportation, population health and equity, collect data from a wide range of sources: health service providers, organizations that serve the homeless, population-level indicators, surveys and mobile health devices. Examine the transportation accessibility needs of vulnerable communities and populations, and links between mobility and gentrification. Examine the extent to which land-use plans are designed to support existing neighborhoods versus shaping future growth, and what happens to those neighborhoods after the development is completed.
 Data collection and analysis strategies:
 * establish protocols to merge and clean transportation data
 * collect microdata about vulnerable communities
@@ -61,17 +59,17 @@ Data collection and analysis strategies:
 * assess the potential impacts of new technologies on future equity and accessibility
 * use market segmentation and behavioral metrics to see which groups are underserved by current transportation
 
-<b>Data Science-enabled “bottom-up” understanding, e.g. housing, transportation, jobs, social, and substance abuse</b>
+<b>Data Science-enabled “bottom-up” understanding, e.g. housing, transportation, jobs, social, and substance abuse:</b>
 Explore the paths along which processes take place that lead to outcomes of homelessness, drug use, employment, housing and transportation (availability, constraints and mode choice). Provide research to understand how processes drive decisions, activities and outcomes through a variety of domains in the context of urban analytics, including social and demographic factors.
 
-<b>Land Parcel Dataset</b>
-Partner with government agencies, indigenous communities, and real estate and land use associations such as the [Urban Development Institute]( http://udi.bc.ca/) and the [Urban Land Institute](https://uli.org/) to create a land parcel data set showing real estate transactions and land use changes over time. Data sets on property assessments, zoning, land titles and urban planning could be used. The [Integrated Public Use Microdata Series](https://www.ipums.org/) at the University of Minnesota Population provides a model. The resulting information may be applicable to CUAC transportation research.
+<b>Land Parcel Dataset:</b>
+Partner with government agencies, indigenous communities, and real estate and land use associations such as the [Urban Development Institute]( http://udi.bc.ca/) and the [Urban Land Institute](https://uli.org/) to create a land parcel data set showing real estate transactions and land use changes over time. Utilize data sets on property assessments, zoning, land titles and urban planning. The [Integrated Public Use Microdata Series](https://www.ipums.org/) at the University of Minnesota Population Center provides a model. The resulting information may be applicable to CUAC transportation research.
 
-<b>International Housing Market Dataset: Supply-oriented</b>
+<b>International Housing Market Dataset: Supply-oriented:</b>
 Create a system to extract data on the rental housing market to see changes in neighborhood density, focus on housing supply instead of demand.
 
-<b>Data Consulting for Cities, Inventory, Needs Assessment</b>
-Working with city governments to enable a better understanding of data collection, data availability and best practices; as well as legal issues and constraints around setting up repositories and data use policies. Begins by asking the questions:
+<b>Data Consulting for Cities, Inventory, Needs Assessment:</b>
+Work with city governments to enable a better understanding of data collection, availability and best practices; as well as legal issues and constraints around setting up repositories and data use policies. Begins by asking the questions:
 What data do they need? What would they do with that data if they had it?
 What data do they already have? What can they do with it? Can they use the data to better inform data processes?
 
