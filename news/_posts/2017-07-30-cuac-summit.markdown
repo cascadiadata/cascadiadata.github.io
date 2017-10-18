@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cascadia Urban Analytics Cooperative Summit
+title:  CUAC Summit Day 1 - Data Science for Social Good Presentations
 date:   2017-07-30 10:57:12
 image:  images/cuac_summit.jpg
 excerpt:
