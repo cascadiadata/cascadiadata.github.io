@@ -29,12 +29,7 @@
             </li>
           {% else %}
             <li>
-              {% if include.base %}
-                <a href="{{site.url}}/{{include.base}}{{ item.path }}">{{ item.name }}</a>
-              {% else %}
                 <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
-              {% endif %}
-
             </li>
           {% endif %}
         {% endfor %}

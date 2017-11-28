@@ -8,7 +8,7 @@
   path: "#people"
   section_id: people
 - name:  News + Events
-  path: /news
+  path: news
   section_id: news
 - name: Partners
   path: "#partners"

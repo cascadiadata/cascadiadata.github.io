@@ -4,12 +4,7 @@
   {% include head.html %}
 
   <body>
-    {% if page.path == 'index.html' %}
-      {% include header.html %}
-    {% else %}
-      {% include header.html base="index.html" %}
-    {% endif %}
-
+    {% include header.html %}
 
     <div id='main' role='main'>
       {{ content }}
