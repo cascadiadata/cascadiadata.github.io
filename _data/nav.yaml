@@ -7,6 +7,9 @@
 - name: People
   path: "#people"
   section_id: people
+- name: Affiliates
+  path: "#affiliates"
+  section_id: affiliates
 - name:  News + Events
   path: news
   section_id: news
