@@ -11,6 +11,12 @@ layout: news
             <div class='image'><img alt="" src="{{site.url}}/{{page.image}}" /></div>
           {% endif %}
         </div>
+
+
+      	{% if page.caption %}
+      	  <div style="padding:8px 40px 8px 40px; color:#999; font-size:12px; background:#fafafa">Caption: {{page.caption}}</div>
+      	{% endif %}
+
         <div class='content'>
           <p class='info'>
             <span>{{page.date | date: "%B %d, %Y" }}</span>
