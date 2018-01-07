@@ -7,11 +7,16 @@
 		margin-bottom: 50px;
 	}
 	#global-nav #logo{
-
+		margin-right: 16px;
+		font-size: 1.5em;
+		line-height: 75px;
+		color: #000;
 	}
 	#global-nav #tags{
 		left: 100px;
 		height: 100%;
+		display: inline-block;
+		vertical-align: top;
 	}
 	#global-nav #tags a{
 		height: 75px;
@@ -28,7 +33,10 @@
 			position: fixed;
 			top: 0;
 			height: 50px;
-			font-size: 13px;
+		}
+		#global-nav #tags{
+			display: flex;
+			justify-content: space-around;
 		}
 		#global-nav #tags a{
 			height: 50px;
@@ -37,12 +45,15 @@
 		body{
 			margin-top: 70px;
 		}
+		#global-nav #logo{
+			display: none;
+		}
 	}
 </style>
 <nav id="global-nav">
 	<div class="container">
 		<a id="logo" href="/">
-			
+			<strong>CU</strong>CA
 		</a>
 		<div id="tags">
 			<a href="/" {% if include.select == "home" %} selected {% endif %}>Home</a>
