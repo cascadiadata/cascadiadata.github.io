@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+
+{% include nav.html %}
 <style>
 	#project{
 		display: flex;
@@ -35,6 +37,14 @@ layout: default
 		border-radius: 50%;
 		border: 1px solid #ccc;
 		margin-right: 8px;
+	}
+	@media(max-width: 800px){
+		#project{
+			flex-wrap: wrap;
+		}
+		#project main{
+			padding: 32px;
+		}
 	}
 </style>
 <section id="project" class="container">
