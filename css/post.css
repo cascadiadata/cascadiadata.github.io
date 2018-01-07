@@ -1,0 +1,33 @@
+#news{
+	display: flex;
+}
+#news main{
+	width: 100%;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #dedede;
+	padding: 40px 0;
+}
+#news main > div{
+	padding: 0 48px;
+}
+#news main .date{
+	color: #999;
+}
+#news main .title{
+	font-size: 32px;
+	font-weight: bold;
+	margin: 16px 0;
+}
+#news main img{
+	width: 100%;
+	margin: 16px 0;
+}
+#news main .excerpt{
+	line-height: 22px;
+	margin: 8px 0;
+}
+#news aside{
+	width: 300px;
+	padding: 0 32px;
+}

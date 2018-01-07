@@ -1,42 +1,7 @@
 ---
 layout: news
 ---
-<style>
-	#news{
-		display: flex;
-	}
-	#news main{
-		width: 100%;
-		background: #fff;
-		border-radius: 3px;
-		border: 1px solid #dedede;
-		padding: 40px 0;
-	}
-	#news main > div{
-		padding: 0 48px;
-	}
-	#news main .date{
-		color: #999;
-	}
-	#news main .title{
-		font-size: 32px;
-		font-weight: bold;
-		margin: 16px 0;
-	}
-	#news main img{
-		width: 100%;
-		margin: 16px 0;
-	}
-	#news main .excerpt{
-		line-height: 22px;
-		margin: 8px 0;
-	}
-	#news aside{
-		width: 300px;
-		padding: 0 32px;
-	}
-</style>
-
+<link rel="stylesheet" href="/css/post.css">
 <section id="news" class="container">
 	<main>
 		<div class="date">{{page.date | date: "%B %d, %Y" }}</div>
@@ -46,7 +11,6 @@ layout: news
 		{% endif %}
 		<div class="content">{{content}}</div>
 	</main>
-	
 	<aside>
 		{% include news_aside.html %}
 	</aside>

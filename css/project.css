@@ -1,0 +1,42 @@
+#project{
+	display: flex;
+}
+#project main{
+	width: 100%;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #dedede;
+	padding: 40px 48px;
+}
+#project main h1{
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 0;
+}
+#project main img{
+	max-width: 100%;
+}
+#project aside{
+	width: 300px;
+	padding: 0 32px;
+}
+.participant{
+	display: flex;
+	margin: 16px 0;
+	align-items: center;
+}
+.participant img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	margin-right: 8px;
+}
+@media(max-width: 800px){
+	#project{
+		flex-wrap: wrap;
+	}
+	#project main{
+		padding: 32px;
+	}
+}

@@ -14,3 +14,14 @@ collections:
   projects:
     output: true
     permalink: /:collection/:name
+
+# Compression settings
+sass:
+  sass_dir: ui/_scss
+  style: compressed
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+  startings: [head, body]
