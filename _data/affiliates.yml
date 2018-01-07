@@ -1,0 +1,234 @@
+- image: martino_tran.jpg
+  name: Martino Tran
+  description: Assistant Professor, Community and Regional Planning, UBC
+- image: carolyn_taylor.jpg
+  name: Carolyn Taylor
+  description: Senior Statistical Consultant, Department of Statistics, UBC
+  socials:
+    - link: http://asda.stat.ubc.ca
+      type: website   
+    - link: http://twitter.com/AsdaUBC
+      type: twitter
+- image: michael_brauer.jpg
+  name: Michael Brauer
+  description: Professor, School of Population and Public Health, UBC
+  socials:
+    - link: http://spph.ubc.ca
+      type: website
+- image: brittany_fiore-gartland.jpg
+  name: Brittany Fiore-Gartland
+  description: Director of Data Science Ethnography, eScience Institute, UW
+  socials:
+    - link: http://www.fioregartland.org
+      type: website   
+    - link: http://twitter.com/brittafiore
+      type: twitter
+- image: kim_mcgrail.jpg
+  name: Kim McGrail
+  description: Associate Professor, School of Population and Public Health, UBC
+  socials:
+    - link: https://www.popdata.bc.ca/
+      type: website   
+    - link: http://twitter.com/kimchspr
+      type: twitter
+- image: brian_brooke.jpg
+  name: Brian Brooke
+  description: Senior Manager, Innovation and Performance, Sound Transit
+  socials:
+    - link: http://www.soundtransit.org
+      type: website   
+    - link: http://twitter.com/pestardus
+      type: twitter
+- image: rachel_berney.jpg
+  name: Rachel Berney
+  description: Assistant Professor, Department of Urban Design and Planning, UW
+  socials:
+    - link: http://urbdp.be.washington.edu/people/rachel-berney/
+      type: website   
+- image: hugh_spitzer.JPG
+  name: Hugh Spitzer
+  description: Professor of Law (Acting), UW School of Law
+  socials:
+    - link: http://ssrn.com/author=1514923
+      type: website   
+- image: rebecca_walter.jpg
+  name: Rebecca J. Walter
+  description: Assistant Professor, UW Department of Real Estate
+- image: uba_backonja.jpg
+  name: Uba Backonja
+  description: Assistant Professor in Nursing and Healthcare Leadership, UW Tacoma
+  socials:
+    - link: http://bime.uw.edu/faculty/uba-backonja/
+      type: website
+    - link: http://directory.tacoma.uw.edu/employee/backonja
+      type: website   
+- image: ariel_rokem.jpg
+  name: Ariel Rokem
+  description: Senior Data Scientist, eScience Institute, UW
+  socials:
+    - link: http://arokem.org/
+      type: website
+    - link: http://twitter.com/arokem
+      type: twitter 
+- image: jan_whittington.png
+  name: Jan Whittington
+  description: Associate Professor, Department of Urban Design and Planning, UW
+  socials:
+    - link: http://urbdp.be.washington.edu/people/jan-whittington/
+      type: website   
+    - link: https://blogs.uw.edu/urbanlab/
+      type: website          
+- image: karey_shumansky.jpg
+  name: Karey Shumansky
+  description: Senior Statistical Consultant, Department of Statistics, UBC
+  socials:
+    - link: http://asda.stat.ubc.ca
+      type: website   
+    - link: http://twitter.com/etownbetty
+      type: twitter
+- image: gregg_colburn.jpg
+  name: Gregg Colburn
+  description: Assistant Professor, College of Built Environments, Department of Real Estate, UW
+- image: graham_thompson.jpg
+  name: Graham Thompson
+  description: Seattle Civic Tech Manager, Microsoft
+  socials: 
+    - link: http://twitter.com/grahamthompson
+      type: twitter
+- image: jeff_ban.png
+  name: Xuegang (Jeff) Ban
+  description: Associate Professor, Civil and Environmental Engineering, UW
+  socials:
+    - link: https://www.ce.washington.edu/people/faculty/banx
+      type: website
+- image: anissa_tanweer.jpg
+  name: Anissa Tanweer
+  description: PhD Candidate, Department of Communication; Ethnographer, eScience Institute, UW
+  socials:
+    - link: https://www.ce.washington.edu/people/faculty/banx
+      type: website
+- image: james_mccafferty.jpg
+  name: James McCafferty
+  description: Director, Center for Economic and Business  Research, Western Washington University
+  socials:
+    - link: https://cbe.wwu.edu/cebr/center-economic-and-business-research
+      type: website  
+- image: tim_thomas.jpg
+  name: Tim Thomas
+  description: Moore/Sloan Postdoctoral Fellow in Data Science, eScience Institute, UW
+  socials:
+    - link: http://www.timothyathomas.com/ 
+      type: website
+    - link: http://twitter.com/timthomas
+      type: twitter
+- image: arthur_acolin.jpg
+  name: Arthur Acolin
+  description: Assistant Professor of Real Estate, UW
+- image: leanne_currie.png
+  name: Leanne Currie
+  description: Associate Professor, Nursing, UBC
+  socials:
+    - link: https://nursing.ubc.ca/our-people/leanne-m-currie
+      type: website     
+- image: mark_hallenbeck.jpg
+  name: Mark Hallenbeck
+  description: Director, Washington State Transportation Center, UW
+  socials:
+    - link: https://www.washington.edu/research/research-centers/washington-state-transportation-center-trac/ 
+      type: website
+- image: penny_gurstein.jpg
+  name: Penny Gurstein
+  description: Professor, School of Community and Regional Planning, UBC
+  socials:
+    - link: http://www.scarp.ubc.ca 
+      type: website
+- image: margot_young.jpg
+  name: Margot Young
+  description: Professor, Allard School of Law, UBC
+  socials:
+    - link: http://twitter.com/MargotYoung3
+      type: twitter
+- image: nathanael_lauster.jpg
+  name: Nathanael Lauster
+  description: Associate Professor, Sociology Department, UBC
+  socials:
+    - link: http://www.soci.ubc.ca/persons/nathanael-lauster  
+      type: website
+    - link: http://twitter.com/lausterna
+      type: twitter
+- image: kivan_polimis.jpg
+  name: Kivan Polimis
+  description: Program Coordinator, Data Science for Social Good, UW
+  socials:
+    - link: http://kivanpolimis.com
+      type: website
+    - link: http://twitter.com/kpolimis
+      type: twitter
+- image: jess-hamilton.jpg
+  name: Jess Hamilton
+  description: Former Program Coordinator, Urban@UW &amp; Urbanalytics Studio     
+  socials:
+    - link: https://www.linkedin.com/in/jess-hamilton-4b318313
+      type: website
+    - link: mailto:jesshami@uw.edu
+      type: email
+- image: sarah_neubauer.jpg
+  name: Sarah Neubauer
+  description: Fellow, Data Science for Social Good, UBC
+  socials:
+    - link: https://ca.linkedin.com/in/sarah-neubauer-b2997a122
+      type: website
+- image: rashedul_hoque.jpg
+  name: Md Rashedul Hoque
+  description: Fellow, Data Science for Social Good, UBC
+- image: orysya_stus.jpg
+  name: Orysya Stus
+  description: Fellow, Data Science for Social Good, UW
+- image: patricia_angkiriwang.jpg
+  name: Patricia Angkiriwang
+  description: Fellow, Data Science for Social Good, UBC
+  socials:
+    - link: https://www.linkedin.com/in/patricia-angkiriwang/
+      type: website
+    - link: http://twitter.com/cautioushopeful
+      type: twitter
+- image: saeid_allahdadian.png
+  name: Saeid Allahdadian
+  description: Fellow, Data Science for Social Good, UBC
+  socials:
+    - link: https://www.linkedin.com/in/saeid-allahdadian-65140961/
+      type: website
+    - link: mailto:allahdadian@gmail.com
+      type: email
+- image: peiyuan_zhu.JPG
+  name: Peiyuan (Gary) Zhu
+  description: Fellow, Data Science for Social Good, UBC
+  socials:
+    - link: http://twitter.com/garyzhubc
+      type: twitter
+- image: cara_arizmendi.png
+  name: Cara Arizmendi
+  description: Fellow, Data Science for Social Good, UW
+- image: raphael_roman.jpg
+  name: Raphael Roman
+  description: Fellow, Data Science for Social Good, UBC
+  socials:
+    - link: http://twitter.com/RaphGenf
+      type: twitter
+- image: qianqian_wu.JPG
+  name: Hailey Wu (Qianqian)
+  description: Fellow, Data Science for Social Good, UBC
+- image: brett_bejcek.jpg
+  name: Brett Bejcek
+  description: Fellow, Data Science for Social Good, UW
+  socials:
+    - link: https://www.github.com/bmbejcek
+      type: website
+    - link: http://twitter.com/brettbejcek
+      type: twitter
+- image: william_qi.jpg
+  name: William Qi
+  description: Fellow, Data Science for Social Good, UBC
+  socials:
+    - link: http://williamqi.com
+      type: website

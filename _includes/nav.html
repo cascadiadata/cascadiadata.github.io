@@ -1,0 +1,54 @@
+<style>
+	#global-nav{
+		width: 100%;
+		height: 75px;
+		background-color: #fff;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 50px;
+	}
+	#global-nav #logo{
+
+	}
+	#global-nav #tags{
+		left: 100px;
+		height: 100%;
+	}
+	#global-nav #tags a{
+		height: 75px;
+		line-height: 75px;
+		color: #000;
+		display: inline-block;
+		padding: 0 15px;
+	}
+	#global-nav #tags a[selected]{
+		border-bottom: 3px solid #F9CE06;
+	}
+	@media(max-width: 800px){
+		#global-nav{
+			position: fixed;
+			top: 0;
+			height: 50px;
+			font-size: 13px;
+		}
+		#global-nav #tags a{
+			height: 50px;
+			line-height: 50px;
+		}
+		body{
+			margin-top: 70px;
+		}
+	}
+</style>
+<nav id="global-nav">
+	<div class="container">
+		<a id="logo" href="/">
+			
+		</a>
+		<div id="tags">
+			<a href="/" {% if include.select == "home" %} selected {% endif %}>Home</a>
+			<a href="/people/" {% if include.select == "people" %} selected {% endif %}>People</a>
+			<a href="/news/" {% if include.select == "news" %} selected {% endif %}>News + Events</a>
+			<a href="/media/" {% if include.select == "media" %} selected {% endif %}>Media</a>
+		</div>
+	</div>
+</nav>

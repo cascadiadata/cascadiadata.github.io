@@ -1,14 +1,16 @@
 # Site settings
 title: Cascadia Urban Analytics Cooperative
 email: urbandat@uw.edu
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   A partnership bewteen the University of Washington and the University of British Columbia, the focus of the Cascadia Urban Analytics Cooperative is data science for social good in an urban context: high-impact data science and analytics projects that aim to understand and extract valuable actionable information out of data from urban environments in the Cascadia region.
-#baseurl: "/cuac/"  the subpath of your site, e.g. /blog/
-url: "http://cascadiadata.org" # the base hostname & protocol for your site
+url: "http://cascadiadata.org"
 twitter_username: urbanuw
 github_username:  cascadiadata
 # Build settings
 markdown: kramdown
-#port: 4001
-#paginate: 4
-#paginate_path: "blog/page:num"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name

@@ -1,2 +1,0 @@
-# cuac
-http://cascadiadata.org

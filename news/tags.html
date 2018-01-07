@@ -1,0 +1,81 @@
+---
+layout: news
+permalink: /news/tags/
+---
+
+<style>
+	#news{
+		display: flex;
+	}
+	#news main{
+		width: 100%;
+	}
+	#news aside{
+		width: 300px;
+		padding: 0 32px;
+	}
+	.tag{
+		background: #fff;
+		border-radius: 3px;
+		border: 1px solid #dedede;
+		padding: 40px 48px;
+	}
+	.tag:not(:first-of-type){
+		margin-top: 32px;
+	}
+	.tag_name{
+		font-size: 38px;
+		margin-bottom: 30px;
+	}
+	.post:not(:last-of-type){
+		border-bottom: 1px solid #eee;
+		margin-bottom: 16px;
+	}
+	.post .date{
+		color: #999;
+	}
+	.post .title{
+		font-size: 32px;
+		font-weight: bold;
+		margin: 16px 0;
+	}
+	.post img{
+		width: 100%;
+		margin: 16px 0;
+	}
+	.post .excerpt{
+		line-height: 22px;
+		margin: 8px 0;
+	}
+	.post hr{
+		border: 0;
+		border-bottom: 1px solid #eee;
+		margin: 20px 0;
+	}
+	.post .tags{
+		color: #999;
+	}
+</style>
+
+<section id="news" class="container">
+	<main>
+		{% assign tags = site.tags | sort %}
+		{% for tag in tags %}
+			{% assign tag_name = tag[0] %}
+			<div class="tag" id="{{tag_name}}">
+				<div class="tag_name">#{{ tag_name }}</div>
+				{% for post in site.tags[tag_name] %}
+					<div class="post">
+						<div class="date">{{post.date | date: "%B %d, %Y" }}</div>
+						<div class="title"><a href="{{post.url}}">{{post.title}}</a></div>
+					</div>
+				{% endfor %}
+			</div>
+		{% endfor %}
+
+
+	</main>
+	<aside>
+		{% include news_aside.html %}
+	</aside>
+</section>

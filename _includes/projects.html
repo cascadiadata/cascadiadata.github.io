@@ -1,84 +1,165 @@
-<!-- Affiliated Projects e -->
-<section class='full no-padding' style='background: #F9CE06; color: #fff' id="projects">
-<div class='full'>
-{% include section-header.html title="Projects" class="alt" %}
-        <div class="row">
-
-<!--Project Categories-->
-
-<!--
-
-          <div class="small-12  large-4 columns">
-            <article class="project-cat">
-              <img src="images/transportation.png" alt="Equitable Transportation Icon" /></a>
-              <h3 >Equitable Transportation</h3>
-              <ul class="alt">
-              {% for post in site.categories.transportation %}
-              {% if post.link %}
-              <li><h4> <a href="{{ post.link }}" >{{ post.name}} &gt;</a></h4></li>
-              {% else %}  
-              <li><h4> <a href="{{ post.url }}" >{{ post.name }} &gt;</a></h4></li>
-              {% endif %}
-              {% endfor %}
-              </ul>
-            </article>
-          </div>
-
-          <div class="small-12 large-4 columns">
-            <article class="project-cat">
-              <img src="images/data_icon.png" alt="Responsible Data Management Icon" /></a>
-              <h3 >Responsible Data Management</h3 >
-              <ul class="alt">
-              {% for post in site.categories.responsible-data %}
-              {% if post.link %}
-              <li><h4><a href="{{ post.link }}" >{{ post.name}} &gt;</a></h4></li>
-              {% else %}  
-              <li><h4><a href="{{ post.url }}" >{{ post.name }} &gt;</a></h4></li>
-              {% endif %}
-              {% endfor %}
-              </ul>
-            </article>
-          </div>
-
-          <div class="small-12 large-4 columns">
-            <article class="project-cat">
-              <img src="images/homelessness.png" alt="Data Driven Human Services Icon" /></a>
-              <h3  >Data-Driven Human Services</h3 >
-              <ul class="alt">
-              {% for post in site.categories.human-services %}
-              {% if post.link %}
-              <li><h4><a href="{{ post.link }}" >{{ post.name}} &gt;</a></h4></li>
-              {% else %}  
-              <li><h4><a href="{{ post.url }}" >{{ post.name }} &gt;</a></h4></li>
-              {% endif %}
-              {% endfor %}
-              </ul>
-            </article>
-          </div>
--->
- 
-    
-<!-- END Project Categories-->      
-    
-        </div>
-
-  <div class='row'>
-    <div class='large-12 columns'>
-       
-      <div class='spacing'></div>
-    </div>
-  </div>
-  </div>
-  <div class='mod modCallToAction'>
-  <a id='projects'></a>
-    <div class='row'>
-    {% for work in page.works %}
-          <a class='boxed button large-12 columns' href='{{work.link_to}}'>
-            <h3 style="display:block;">{{work.title}}</h3>
-            <p>{{work.desc}}</p>  
-          </a> 
-        {% endfor %}
-    </div>
-  </div>
-  <div class='four spacing'></div>
+<style>
+	#projects{
+		padding: 0;
+	}
+	#projects .selections{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#projects select{
+		min-width: 150px;
+		height: 30px;
+		margin: 0 16px;
+		padding: 0 8px;
+		color: #999;
+		background: #fff;
+		border: none;
+		border-bottom: 2px solid #ccc;
+		border-radius: 0;
+		outline: none;
+		appearance: none;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	}
+	#projects select[highlight=true]{
+		color: #F9CE06;
+		border-color: #F9CE06;
+	}
+	.scroll-view{
+		overflow: scroll;
+		width: 100%;
+		white-space: nowrap;
+		padding: 20px 48px;
+	}
+	.project{
+		width: 200px;
+		margin: 0 16px;
+		display: inline-block;
+		vertical-align: top;
+		white-space: normal;
+		text-align: center;
+	}
+	.project>img{
+		width: 200px;
+		height: 200px;
+		background-color: #eee;
+		border: 1px solid #ccc;
+		box-sizing: content-box;
+	}
+	.project>h2{
+		font-size: 18px;
+		margin: 8px 0;
+	}
+	.project>h3{
+		color: #999;
+		font-size: 14px;
+		margin: 0;
+	}
+	.project>h4{
+		color: #ccc;
+		font-size: 12px;
+		margin: 4px 0;
+	}
+	.project>p{
+		font-size: 12px;
+		color: #333;
+	}
+	@media(max-width: 800px){
+		.scroll-view{
+			padding: 20px 16px;
+		}
+		.project{
+			width: 150px;
+			margin: 0 8px;
+		}
+		.project img{
+			width: 150px;
+			height: 150px;
+		}
+	}
+</style>
+<section id="projects" class="container styled">
+	<h1>Projects</h1>
+	<div class="selections">
+		<select id="categories">
+			<option value="all">All Categories</option>
+		</select>
+		<select id="facilities">
+			<option value="all">All Facilities</option>
+		</select>
+	</div>
+	<div class="scroll-view">
+	{% assign projects = (site.projects | sort: 'date') | reverse %}
+	{% for project in projects %}
+		<a 	class="project"
+			facilities="{{project.facilities|join:'|'}}"
+			categories="{{project.categories|join:'|'}}"
+			href="{%if project.link%}{{project.link}}{%else%}{{project.url}}{%endif%}">
+			<img src="{{project.thumbnail}}">
+			<h2>{{project.name}}</h2>
+			<p>{{project.description}}</p>
+			<h3>{{project.facilities | sort | join: " | "}}</h3>
+			<h4>{{project.categories | sort | join: "<br>"}}</h4>
+		</a>
+	{% endfor %}
+	</div>
 </section>
+<script>
+	$(function(){
+		var $projects = [],
+			categories = [],
+			facilities = [],
+			$scrollView = $("#projects .scroll-view"),
+			$selectCategories = $("select#categories"),
+			$selectFacilities = $("select#facilities")
+		$scrollView.children().each(function(){
+			$project = $(this)
+			$projects.push($project)
+			_categories = $project.attr("categories").split("|")
+			_facilities = $project.attr("facilities").split("|")
+			_categories.forEach(function(category){
+				if(!categories.includes(category)){categories.push(category)}
+			})
+			_facilities.forEach(function(facility){
+				if(!facilities.includes(facility)){facilities.push(facility)}
+			})
+		})
+		categories.sort()
+		facilities.sort()
+		categories.forEach(function(category){
+			$("<option>")
+				.text(category)
+				.attr("value", category)
+				.appendTo($selectCategories)
+		})
+		facilities.forEach(function(facility){
+			$("<option>")
+				.text(facility)
+				.attr("value", facility)
+				.appendTo($selectFacilities)
+		})
+		delete categories
+		delete facilities
+		$selectCategories.on("change", update)
+		$selectFacilities.on("change", update)
+		function update(){
+			var $categoryOption = $selectCategories.find(":selected"),
+				$facilityOption = $selectFacilities.find(":selected"),
+				category = $categoryOption.attr("value"),
+				facility = $facilityOption.attr("value")
+			$selectCategories.attr("highlight", $categoryOption.index()!=0)
+			$selectFacilities.attr("highlight", $facilityOption.index()!=0)
+			$scrollView.animate({opacity: 0}, 250, function(){
+				$scrollView.empty().scrollLeft(0).animate({opacity: 1}, 250)
+				$projects.forEach(function($project){
+					if((category == "all"||$project.attr("categories").split("|").includes(category)) &&
+						(facility == "all"||$project.attr("facilities").split("|").includes(facility))){
+						$scrollView.append($project)
+					}
+				})
+			})
+		}
+	})
+</script>

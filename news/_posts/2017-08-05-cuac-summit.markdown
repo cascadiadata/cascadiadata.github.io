@@ -2,10 +2,12 @@
 layout: post
 title:  CUAC Summit Day 2 - Brainstorming Cross-Border Research Projects
 date:   2017-08-05
-image:  images/blog/cuacsummit_day2.jpg
+image:  /images/news/cuacsummit_day2.jpg
 excerpt:
   The second day of the CUAC Summit yields research project ideas on transportation, public health, housing and urban planning.
 author: Emily F. Keller
+tags:
+  - CUAC Summit
 ---
 
  

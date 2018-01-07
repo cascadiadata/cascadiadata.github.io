@@ -1,80 +1,53 @@
 ---
 layout: news
 ---
+<style>
+	#news{
+		display: flex;
+	}
+	#news main{
+		width: 100%;
+		background: #fff;
+		border-radius: 3px;
+		border: 1px solid #dedede;
+		padding: 40px 0;
+	}
+	#news main > div{
+		padding: 0 48px;
+	}
+	#news main .date{
+		color: #999;
+	}
+	#news main .title{
+		font-size: 32px;
+		font-weight: bold;
+		margin: 16px 0;
+	}
+	#news main img{
+		width: 100%;
+		margin: 16px 0;
+	}
+	#news main .excerpt{
+		line-height: 22px;
+		margin: 8px 0;
+	}
+	#news aside{
+		width: 300px;
+		padding: 0 32px;
+	}
+</style>
 
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-9 columns'>
-      <div class='mod modBlogPost big'>
-        <div class='images'>
-          {% if page.image %}
-            <div class='image'><img alt="" src="{{site.url}}/{{page.image}}" /></div>
-          {% endif %}
-        </div>
-
-
-      	{% if page.caption %}
-      	  <div style="padding:8px 40px 8px 40px; color:#999; font-size:12px; background:#fafafa">Caption: {{page.caption}}</div>
-      	{% endif %}
-
-        <div class='content'>
-          <p class='info'>
-            <span>{{page.date | date: "%B %d, %Y" }}</span>
-            /
-            <span>
-              by
-              <a>{{page.author}}</a>
-            </span>
-            /
-            <span>
-              In
-              {% for cat in page.categories %}
-                <a>{{cat}}</a>
-                {% unless forloop.last %}
-                    ,
-                {% endunless %}
-              {% endfor %}
-            </span>
-          </p>
-          <h3><a href="{{page.url}}">{{page.title}}</a></h3>
-          {{ content }}
-        </div>
-      </div>
-      <div class='two spacing'></div>
-   <!--   <a id='comments'></a>
-      {% include comments.html %}
-      <div class='four spacing'></div>
-      <div id='comments-form'>
-        <h3>Your comment</h3>
-        <form accept-charset='UTF-8' action='#' method='post'>
-          <p class='name'>
-            <label for='name'>Your Name</label>
-            <input class='input-text required' id='name' name='name' type='text'>
-          </p>
-          <p class='email'>
-            <label for='email'>Your Email</label>
-            <input class='input-text required' id='email' name='email' type='text'>
-          </p>
-          <p class='message'>
-            <label for='message'>Your Message</label>
-            <textarea class='required' cols='80' id='message' name='message' rows='5'></textarea>
-          </p>
-          <div class='spacing'></div>
-          <p>
-            <input class='button' type='submit' value='Send Message'>
-          </p>
-        </form>
-      </div>
-      -->
-      <div class='four spacing'></div>
-    </div>
-    <div class='large-3 columns' id='sidebar'>
-      {% include sidebar.html %}
-    </div>
-  </div>
-</div>
-
-<script>
-  // Make hyperlinks in content open in new tab  
-  Tc.$(".content a").attr("target", "_blank")
-</script>
+<section id="news" class="container">
+	<main>
+		<div class="date">{{page.date | date: "%B %d, %Y" }}</div>
+		<div class="title">{{page.title}}</div>
+		{% if page.image %}
+		<img src="{{page.image}}">
+		{% endif %}
+		<div class="content">{{content}}</div>
+	</main>
+	
+	<aside>
+		{% include news_aside.html %}
+	</aside>
+</section>

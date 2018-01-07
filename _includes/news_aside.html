@@ -1,0 +1,32 @@
+<style>
+	.aside:not(:last-of-type){
+		margin-bottom: 32px;
+		padding-bottom: 32px;
+		border-bottom: 1px solid #ddd;
+	}
+	.aside h1{
+		font-size: 22px;
+		font-weight: bold;
+		margin: 16px 0;
+	}
+	.aside a{
+		font-size: 18px;
+		margin: 8px 0;
+		display: block;
+	}
+</style>
+<section class="aside">
+	<h1>Contact Us</h1>
+	<a href="mailto:urbandat@uw.edu">urbandat@uw.edu</a>
+</section>
+<section class="aside">
+	<h1>Follow Us</h1>
+	<a href="https://twitter.com/CascadiaData">Twitter</a>
+</section>
+<section class="aside">
+	<h1>Tags</h1>
+	{% assign tags = site.tags | sort %}
+	{% for tag in tags %}
+		<a href="/news/tags/#{{ tag[0] }}">{{ tag[0] }}</a>
+	{% endfor %}
+</section>

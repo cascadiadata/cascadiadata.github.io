@@ -1,32 +1,69 @@
 ---
-layout: news
+layout: default
 ---
+<style>
+	#project{
+		display: flex;
+	}
+	#project main{
+		width: 100%;
+		background: #fff;
+		border-radius: 3px;
+		border: 1px solid #dedede;
+		padding: 40px 48px;
+	}
+	#project main h1{
+		font-size: 48px;
+		font-weight: bold;
+		margin-top: 0;
+	}
+	#project main img{
+		max-width: 100%;
+	}
+	#project aside{
+		width: 300px;
+		padding: 0 32px;
+	}
+	.participant{
+		display: flex;
+		margin: 16px 0;
+		align-items: center;
+	}
+	.participant img{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: 1px solid #ccc;
+		margin-right: 8px;
+	}
+</style>
+<section id="project" class="container">
+	<main>
+		{{content}}
+	</main>
+	{% if page.participants %}
+	<aside>
+		<h1>Participants</h1>
+		{% for participant_name in page.participants %}
+			{% assign image = "/images/site/default-user-image.png" %}
+			{% for person in site.data.people %}
+				{% if person.name == participant_name %}
+					{% assign image = "/images/people/" | append:person.image %}
+					{% break %}
+				{% endif %}
+			{% endfor %}
+			{% for affiliate in site.data.affiliates %}
+				{% if affiliate.name == participant_name %}
+					{% assign image = "/images/affiliates/" | append: affiliate.image %}
+					{% break %}
+				{% endif %}
+			{% endfor %}
 
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-9 columns'>
-      <div class='mod modBlogPost big'>
-        <div class='images'>
-          {% if page.img_content %}
-            <div class='image'><img alt="{{page.img_alt}}" src="{{site.url}}/{{page.img_content}}" /></div>
-            <figcaption>{{page.img_caption}}</figcaption>
-          {% endif %}
-        </div>
-        <div class='content'>
-
-          <h3><a href="{{page.url}}">{{page.name}}</a></h3>
-          {{ content }}
-        </div>
-      </div>
-      <div class='two spacing'></div>
-  </div>
-</div>
-<div class='full no-padding' style='background: #111'>
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p>2017 {{site.title}}. All rights reserved.</p>
-    </div>
-  </div>
-  <div class='spacing'></div>
-</div>
+			<div class="participant">
+				<img src="{{image}}">
+				{{ participant_name }}
+			</div>
+		{% endfor %}
+	</aside>
+	{% endif %}
+</section>

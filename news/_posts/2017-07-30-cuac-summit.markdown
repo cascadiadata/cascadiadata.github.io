@@ -2,10 +2,12 @@
 layout: post
 title:  CUAC Summit Day 1 - Data Science for Social Good Presentations
 date:   2017-07-30 10:57:12
-image:  images/cuac_summit.jpg
+image:  /images/news/cuac_summit.jpg
 excerpt:
   The first CUAC Summit brings fellows, faculty, data scientists and City agencies together.
 author: Emily F. Keller
+tags:
+  - CUAC Summit
 ---
 
 The growing prevalence of data generated through diverse sources and methods such as regulated government statistics, sporadically produced social media feeds, variably distributed geolocation and travel sensors, and qualitative on-the-ground surveys paints a rich and complex picture of urban systems in the Cascadia region. The combined data presents new opportunities to understand and improve quality of life and services for residents and visitors at the neighborhood level. However, data frequency and availability also presents new risks of misinterpretation through information gaps, inconsistent methodologies and unintended biases in data collection.

@@ -1,0 +1,69 @@
+<style>
+	#articles .flex{
+		display: flex;
+	}
+	#articles .flex > * {
+		width: 100%;
+		padding: 8px;
+	}
+	#articles span{
+		text-align: center;
+		display: block;
+		font-size: 24px;
+		margin-bottom: 28px;
+	}
+	#articles .post{
+		display: block;
+		border-bottom: 1px solid #eee;
+		padding: 16px 0;
+	}
+	#articles .post h1{
+		margin: 0
+	}
+	#articles .post h2{
+		color: #666;
+		font-size: 14px;
+		margin: 0 0 8px 0;
+	}
+
+	#articles .explore{
+		display: block;
+		padding: 16px 0;
+		font-size: 20px;
+	}
+
+	@media (max-width: 600px) {
+		#articles .flex{
+			flex-wrap: wrap;
+		}
+	}
+</style>
+
+<section id="articles" class="container styled">
+		<h1>Latest Articles</h1>
+		<div class="flex">
+
+			<div>
+				<span>News + Events</span>
+				{% for post in site.posts | limit: 5 %}
+					<a class="post" href="{{post.url}}">
+						<h1>{{post.title}}</h1>
+					</a>
+				{% endfor %}
+				<a href="/news/" class="explore">Explore more</a>
+			</div>
+
+
+			<div>
+				<span>Media</span>
+				{% for post in site.data.media | limit: 3 %}
+					<a class="post" href="{{post.link}}">
+						<h2>{{post.publication}} • {{post.date}}</h2>
+						<h1>{{post.title}}</h1>
+					</a>
+				{% endfor %}
+				<a href="/media/" class="explore">Explore more</a>
+			</div>
+
+		</div>
+</section>

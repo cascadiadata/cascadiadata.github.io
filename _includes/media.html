@@ -1,0 +1,28 @@
+<style>
+	#media .flex{
+		display: flex;
+	}
+	#media .flex > * {
+		width: 50%;
+		padding: 8px;
+	}
+	#media .post:not(:last-of-type){
+		border-bottom: 1px solid #ccc;
+		display: block;
+		padding: 16px 0
+	}
+	#media .post h2{
+		color: #666;
+		font-size: 18px;
+	}
+</style>
+
+<section id="media" class="container styled">
+		<h1>Media</h1>
+		{% for post in site.data.media %}
+			<a class="post" href="{{post.link}}">
+				<h2>{{post.date}} • {{post.publication}} • by {{post.author}}</h2>
+				<h1>{{post.title}}</h1>
+			</a>
+		{% endfor %}
+</section>

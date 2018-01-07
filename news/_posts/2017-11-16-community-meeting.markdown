@@ -6,6 +6,7 @@ image:
 excerpt:
   This invitation-only event will consist of presentations and discussion around urban data projects in the Cascadia region.
 author: Emily F. Keller
+tags: Agenda
 ---
 
 #### == December 5, 2017: 2-4pm ==

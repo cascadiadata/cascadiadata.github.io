@@ -1,71 +1,95 @@
-<a id='people'></a>
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html class="alt" title="People" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row people-cols'>
-    {% for people in page.people %}
-      <div class='small-6 medium-2 large-2 columns'>
-        <div class='mod modTeamMember style-2'>
-          <div class='member'>
-            <img class="avatar" width="250" height="250" alt="" src="{{people.avatar}}" />
-           <div class='overlay'>
-              <ul class='socials'>
-                {% for social in people.socials %}
-                  <li>
-                    <a href='{{social.link}}'>
-                      <i class='fa fa-{{social.icon}}'></i>
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-          <h3>{{people.name}}</h3>
-          <p class='position'>{{people.position}}</p>
-          <p>{{people.desc}}</p>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-<a id='affiliates'></a>
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html class="alt" title="Affiliates" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row people-cols'>
-    {% for affiliate in page.affiliates %}
-      <div class='small-6 medium-2 large-2 columns'>
-        <div class='mod modTeamMember style-2'>
-          <div class='member'>
-            <img class="avatar" width="250" height="250" alt="" src="{{affiliate.avatar}}" />
-           <div class='overlay'>
-              <ul class='socials'>
-                {% for social in affiliate.socials %}
-                  <li>
-                    <a href='{{social.link}}'>
-                      <i class='fa fa-{{social.icon}}'></i>
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-          <h3>{{affiliate.name}}</h3>
-          <p class='position'>{{affiliate.home}}</p>
-          <p>{{affiliate.desc}}</p>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-  <div class='three spacing'></div>
-</div>
+<style>
+	#people .flex, #affiliates .flex{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.person{
+		width: calc(20% - 10px);
+		margin: 10px 5px;
+	}
+	.person .picture{
+		width: 100%;
+		max-width: 150px;
+		border-radius: 50%;
+		border: 1px solid #999;
+		display: block;
+		margin: 8px auto;
+	}
+	.person div{
+		width: 100%;
+		max-width: 150px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.person .name{
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.person .position{
+		color: #666;
+		margin-bottom: 8px;
+	}
+	.person .description{
+		font-size: 13px;
+	}
+	.person .socials{
+		font-size: 13px;
+		margin: 8px auto;
+	}
+	.person .socials a{
+		margin: 0 4px;
+		display: inline-block;
+	}
+	.person .socials img{
+		width: 20px;
+		height: 20px;
+	}
+	@media(max-width: 600px){
+		#people .flex, #affiliates .flex{
+			justify-content: center;
+		}
+		.person{
+			width: 100px;
+		}
+	}
+</style>
+<section id="people" class="container styled">
+	<h1>Leadership</h1>
+	<div class="flex">
+		{% for person in site.data.people %}
+			<div class="person">
+				<img class="picture" src="/images/people/{{person.image}}">
+				<div class="name">{{person.name}}</div>
+				<div class="position">{{person.position}}</div>
+				<div class="description">{{person.description}}</div>
+				<div class="socials">
+					{% for social in person.socials %}
+						<a href="{{social.link}}">
+							<img src="/images/site/{{social.type}}.png" alt="{{social.type}}">
+						</a>
+					{% endfor %}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>
+<section id="affiliates" class="container styled">
+	<h1>Affiliates</h1>
+	<div class="flex">
+		{% for person in site.data.affiliates %}
+			<div class="person">
+				<img class="picture" src="/images/affiliates/{{person.image}}">
+				<div class="name">{{person.name}}</div>
+				<div class="position">{{person.position}}</div>
+				<div class="description">{{person.description}}</div>
+				<div class="socials">
+					{% for social in person.socials %}
+						<a href="{{social.link}}">
+							<img src="/images/site/{{social.type}}.png" alt="{{social.type}}">
+						</a>
+					{% endfor %}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>

@@ -1,10 +1,46 @@
-{% for banner in page.banner %}
-<section id="banner" style="background-image: url({{banner.bg}});">
-  <div class="inner">
-  <h2>{{banner.title}}<br><span>{{banner.title2}}</span></h2>
-  <p>{{banner.tagline1}}</p>
-  <p>{{banner.tagline2}}</p>
-  </div>
-  <div class="caption">{{banner.caption}}</div>
+<style>
+	#banner{
+		background-image: url(/images/site/banner.jpg);
+		background-size: cover;
+		background-position: center;
+		padding: 100px 0;
+	}
+	#banner #logo{
+		width: 525px;
+		margin: 0 auto;
+		font-size: 40px;
+		font-weight: lighter;
+		line-height: 40px;
+		background: rgba(255,255,255,0.95);
+		padding: 30px 20px;
+	}
+	#banner #logo span{
+		display: block;
+		font-weight: bold;
+	}
+	#banner #footnote{
+		line-height: 28px;
+		font-weight: lighter;
+		margin-top: 10px;
+		color: #fff;
+		text-align: center;
+	}
+	@media(max-width: 533px){
+		#banner{
+			padding: 8px;
+		}
+		#banner #logo{
+			width: 100%;
+		}
+	}
+</style>
+<section id="banner" class="container">
+	<div id="logo">
+		<span>CASCADIA URBAN</span>
+		ANALYTICS COOPERATIVE
+	</div>
+	<div id="footnote">
+		Regionally focused research in responsible urban data science.<br>
+		A joint initiative between Microsoft, the University of Washington, and the University of British Columbia
+	</div>
 </section>
- {% endfor %}
