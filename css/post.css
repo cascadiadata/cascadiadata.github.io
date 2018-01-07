@@ -31,3 +31,8 @@
 	width: 300px;
 	padding: 0 32px;
 }
+@media(max-width: 800px){
+	#news aside{
+		display: none;
+	}
+}
