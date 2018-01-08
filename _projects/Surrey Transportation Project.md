@@ -4,7 +4,7 @@ name: Surrey Transportation Project
 description: DSSG team at UBC partnered with the Surrey Transportation Department, creating data visualization tools to analyze bus route performance and demographics
 date: 2017-08-30
 facilities: [UBC]
-categories: [DSSG]
+categories: [DSSG, Transportation]
 thumbnail: /images/projects/thumbnails/Surrey-Transportation-Project.png
 participants:
   - Saeid Allahdadian
