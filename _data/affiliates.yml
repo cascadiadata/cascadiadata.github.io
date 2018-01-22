@@ -60,7 +60,13 @@
   description: Associate Professor, Nursing, UBC
   socials:
     - link: https://nursing.ubc.ca/our-people/leanne-m-currie
-      type: website     
+      type: website  
+- image: anat_caspi.png
+  name: Anat Caspi
+  description: Director, Taskar Center for Accessible Technology, UW
+  socials:
+    - link: https://tcat.cs.washington.edu/people/anat-caspi/
+      type: website 
 - image: ariel_rokem.jpg
   name: Ariel Rokem
   description: Senior Data Scientist, eScience Institute, UW
