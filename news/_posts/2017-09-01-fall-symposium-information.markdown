@@ -6,7 +6,9 @@ image:
 excerpt:
   The goal of this invitation-only event is to identify joint projects to pursue in the coming year, and to build the CUAC community.  We will be emphasizing existing projects with their own inertia that can benefit from CUAC engagement (analytics support, gap funding, cross-border connections).
 author: Emily F. Keller
-tags: Agenda
+tags:
+  - Events
+  
 ---
 
 #### == September 11, 2017: 1-5pm ==

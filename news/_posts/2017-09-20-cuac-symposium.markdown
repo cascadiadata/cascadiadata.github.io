@@ -8,7 +8,11 @@ caption:
 excerpt:
   Faculty, students and researchers discuss projects on housing, transportation and neighborhood change at the CUAC Fall Symposium.
 author: Emily F. Keller
+tags:
+  - Events
 ---
+
+By Emily F. Keller
 
 To understand trends in housing affordability, neighborhood change and multi-modal transportation systems in the Cascadia region, researchers, public agencies and community stakeholders are taking a multifaceted view. 
 

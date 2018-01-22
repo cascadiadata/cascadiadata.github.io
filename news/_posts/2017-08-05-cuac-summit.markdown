@@ -7,9 +7,11 @@ excerpt:
   The second day of the CUAC Summit yields research project ideas on transportation, public health, housing and urban planning.
 author: Emily F. Keller
 tags:
-  - CUAC Summit
+  - Events
+  - Data Science for Social Good
 ---
 
+By Emily F. Keller
  
 The first Cascadia Urban Analytics Cooperative (CUAC) Summit took place at the University of British Columbia (UBC) July 13th and 14th, 2017. The first day of the summit consisted of mid-term presentations by Data Science for Social Good summer project teams from the University of Washington (UW) [eScience Institute](http://escience.washington.edu/) and the UBC [Data Science Institute](https://dsi.ubc.ca/), as detailed in the blog post: [CUAC Summit Day 1 - Data Science for Social Good Presentations](http://cascadiadata.org/news/2017/07/30/cuac-summit.html).
 

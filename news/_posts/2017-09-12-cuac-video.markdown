@@ -4,6 +4,8 @@ title:  New CUAC Video!
 date:   2017-09-12 10:57:12
 excerpt: Learn about the Data Science for Social Good fellowship programs integrated into the Cascadia Urban Analytics Cooperative in a new video.
 author: Emily F. Keller
+tags:
+  - Data Science for Social Good
 ---
 
 #### Cascadia Urban Analytics Cooperative Video
