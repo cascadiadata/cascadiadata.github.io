@@ -1,14 +1,7 @@
 - image: martino_tran.jpg
   name: Martino Tran
   description: Assistant Professor, Community and Regional Planning, UBC
-- image: carolyn_taylor.jpg
-  name: Carolyn Taylor
-  description: Senior Statistical Consultant, Department of Statistics, UBC
-  socials:
-    - link: http://asda.stat.ubc.ca
-      type: website   
-    - link: http://twitter.com/AsdaUBC
-      type: twitter
+
 - image: michael_brauer.jpg
   name: Michael Brauer
   description: Professor, School of Population and Public Health, UBC
@@ -62,6 +55,12 @@
       type: website
     - link: http://directory.tacoma.uw.edu/employee/backonja
       type: website   
+- image: leanne_currie.png
+  name: Leanne Currie
+  description: Associate Professor, Nursing, UBC
+  socials:
+    - link: https://nursing.ubc.ca/our-people/leanne-m-currie
+      type: website     
 - image: ariel_rokem.jpg
   name: Ariel Rokem
   description: Senior Data Scientist, eScience Institute, UW
@@ -77,7 +76,53 @@
     - link: http://urbdp.be.washington.edu/people/jan-whittington/
       type: website   
     - link: https://blogs.uw.edu/urbanlab/
-      type: website          
+      type: website 
+- image: mark_hallenbeck.jpg
+  name: Mark Hallenbeck
+  description: Director, Washington State Transportation Center, UW
+  socials:
+    - link: https://www.washington.edu/research/research-centers/washington-state-transportation-center-trac/ 
+      type: website         
+- image: gregg_colburn.jpg
+  name: Gregg Colburn
+  description: Assistant Professor, College of Built Environments, Department of Real Estate, UW
+- image: tim_thomas.jpg
+  name: Tim Thomas
+  description: Moore/Sloan Postdoctoral Fellow in Data Science, eScience Institute, UW
+  socials:
+    - link: http://www.timothyathomas.com/ 
+      type: website
+    - link: http://twitter.com/timthomas
+      type: twitter
+- image: penny_gurstein.jpg
+  name: Penny Gurstein
+  description: Professor, School of Community and Regional Planning, UBC
+  socials:
+    - link: http://www.scarp.ubc.ca 
+      type: website
+- image: margot_young.jpg
+  name: Margot Young
+  description: Professor, Allard School of Law, UBC
+  socials:
+    - link: http://twitter.com/MargotYoung3
+      type: twitter
+- image: nathanael_lauster.jpg
+  name: Nathanael Lauster
+  description: Associate Professor, Sociology Department, UBC
+  socials:
+    - link: http://www.soci.ubc.ca/persons/nathanael-lauster  
+      type: website
+    - link: http://twitter.com/lausterna
+      type: twitter
+- image: kate_gotziaman.jpg
+  name: Kate Gotziaman 
+  description: JD Candidate, UBC Allard School of Law
+- image: greyson_blue.jpeg
+  name: Greyson Blue
+  description: Hazelton Fellow, UW School of Law
+- image: dylan_olson.jpg
+  name: Dylan Olson
+  description: Hazelton Fellow, UW School of Law
 - image: karey_shumansky.jpg
   name: Karey Shumansky
   description: Senior Statistical Consultant, Department of Statistics, UBC
@@ -86,9 +131,14 @@
       type: website   
     - link: http://twitter.com/etownbetty
       type: twitter
-- image: gregg_colburn.jpg
-  name: Gregg Colburn
-  description: Assistant Professor, College of Built Environments, Department of Real Estate, UW
+- image: carolyn_taylor.jpg
+  name: Carolyn Taylor
+  description: Senior Statistical Consultant, Department of Statistics, UBC
+  socials:
+    - link: http://asda.stat.ubc.ca
+      type: website   
+    - link: http://twitter.com/AsdaUBC
+      type: twitter
 - image: graham_thompson.jpg
   name: Graham Thompson
   description: Seattle Civic Tech Manager, Microsoft
@@ -113,49 +163,9 @@
   socials:
     - link: https://cbe.wwu.edu/cebr/center-economic-and-business-research
       type: website  
-- image: tim_thomas.jpg
-  name: Tim Thomas
-  description: Moore/Sloan Postdoctoral Fellow in Data Science, eScience Institute, UW
-  socials:
-    - link: http://www.timothyathomas.com/ 
-      type: website
-    - link: http://twitter.com/timthomas
-      type: twitter
 - image: arthur_acolin.jpg
   name: Arthur Acolin
   description: Assistant Professor of Real Estate, UW
-- image: leanne_currie.png
-  name: Leanne Currie
-  description: Associate Professor, Nursing, UBC
-  socials:
-    - link: https://nursing.ubc.ca/our-people/leanne-m-currie
-      type: website     
-- image: mark_hallenbeck.jpg
-  name: Mark Hallenbeck
-  description: Director, Washington State Transportation Center, UW
-  socials:
-    - link: https://www.washington.edu/research/research-centers/washington-state-transportation-center-trac/ 
-      type: website
-- image: penny_gurstein.jpg
-  name: Penny Gurstein
-  description: Professor, School of Community and Regional Planning, UBC
-  socials:
-    - link: http://www.scarp.ubc.ca 
-      type: website
-- image: margot_young.jpg
-  name: Margot Young
-  description: Professor, Allard School of Law, UBC
-  socials:
-    - link: http://twitter.com/MargotYoung3
-      type: twitter
-- image: nathanael_lauster.jpg
-  name: Nathanael Lauster
-  description: Associate Professor, Sociology Department, UBC
-  socials:
-    - link: http://www.soci.ubc.ca/persons/nathanael-lauster  
-      type: website
-    - link: http://twitter.com/lausterna
-      type: twitter
 - image: kivan_polimis.jpg
   name: Kivan Polimis
   description: Program Coordinator, Data Science for Social Good, UW
