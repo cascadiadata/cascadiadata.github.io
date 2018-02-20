@@ -52,4 +52,10 @@ $(function(){
 			})
 		})
 	}
+
+	//Scrolling
+	$(".scroll-button").click(function(){
+		var direction = $(this).hasClass("left") ? -1 : 1
+		$scrollView.stop().animate({scrollLeft: $scrollView.scrollLeft() + direction * $scrollView.width() * 0.7})
+	})
 })

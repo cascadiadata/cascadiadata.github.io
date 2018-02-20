@@ -1,6 +1,7 @@
 <style>
 	#projects{
 		padding: 0;
+		position: relative;
 	}
 	#projects .selections{
 		width: 100%;
@@ -83,6 +84,28 @@
 		font-size: 12px;
 		color: #333;
 	}
+	.scroll-button{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		position: absolute;
+		top: 300px;
+		text-align: center;
+		font-size: 50px;
+		line-height: 90px;
+		cursor: pointer;
+		opacity: 0.7;
+		user-select: none;
+	}
+	.scroll-button:hover{
+		background-color: #F9CE06;
+	}
+	.scroll-button.left{
+		left: -30px;
+	}
+	.scroll-button.right{
+		right: -30px;
+	}
 	@media(max-width: 800px){
 		.scroll-view{
 			padding: 20px 16px;
@@ -96,6 +119,11 @@
 			height: 150px;
 		}
 	}
+	@media(max-width: 500px){
+		.scroll-button{
+			display: none;
+		}
+	}
 </style>
 <section id="projects" class="container styled">
 	<h1>Projects</h1>
@@ -107,6 +135,8 @@
 			<option value="all">All Facilities</option>
 		</select>
 	</div>
+	<div class="scroll-button left">&lt;</div>
+	<div class="scroll-button right">&gt;</div>
 	<div class="scroll-view">
 	{% assign projects = (site.projects | sort: 'date') | reverse %}
 	{% for project in projects %}
