@@ -11,8 +11,6 @@ tags:
   - Data Science for Social Good
 ---
 
-By Emily F. Keller
-
 The growing prevalence of data generated through diverse sources and methods such as regulated government statistics, sporadically produced social media feeds, variably distributed geolocation and travel sensors, and qualitative on-the-ground surveys paints a rich and complex picture of urban systems in the Cascadia region. The combined data presents new opportunities to understand and improve quality of life and services for residents and visitors at the neighborhood level. However, data frequency and availability also presents new risks of misinterpretation through information gaps, inconsistent methodologies and unintended biases in data collection.
 
 This summer, student fellows and data scientists at the University of Washington (UW) and the University of British Columbia (UBC) partnered with local government agencies and organizations to apply data science methods to information on travel and transit patterns, early childhood education, tourism asset utilization, neighborhood equity, food security and economic investment opportunities. The Data Science for Social Good (DSSG) program participants at the [UW eScience Institute](http://escience.washington.edu/dssg/project-summaries-2017/) and the [UBC Data Science Institute](https://dsi.ubc.ca/data-science-social-good) partnered with agency representatives from Seattle, Surrey, B.C. and the B.C. Government to create interactive portals, data visualizations and granular data sets showing local trends. The results may be used to refine data gathering processes, establish pilot projects for further research, or contribute to urban planning, transit network decisions, or investment priorities for businesses and attractions. 
@@ -29,7 +27,7 @@ In the teams’ midterm presentations on the first day of the Summit, some commo
 * Devoting significant resources to data cleaning and processing to identify and account for inconsistencies or differing standards across resources; and providing suggestions for improving future data collection methods in addition to research findings.
 * Seeking additional resources when data limitations are discovered, such as finding summaries rather than raw data in open data portals, or finding PDFs instead of an accessible and comprehensive database.
 
-##### == Transportation and Traffic ==
+### == Transportation and Traffic ==
 
 Traveling via public transit or private vehicle leaves data traces collected through a variety of methods: sensors that detect traffic flow through anonymized connections to personal WiFi devices; electronic payments made when entering or exiting a bus or train; overhead sensors that count passengers as they board a vehicle; social media posts with geolocation data; and transit agencies’ data feeds showing schedules, routes and geolocation information.
 
@@ -39,7 +37,7 @@ Even robust data sources may miss groups of travelers or types of trips, showing
 
 UW fellows Brett Bejcek, Anamol Pundle, Orysya Stus and Mike Vlah are working to detect private or for-hire vehicles circling for parking or between customers as a portion of total traffic congestion. With data scientists Valentina Staneva and Vaughn Iverson and project lead Stephen Barham from the City of Seattle’s Department of Transportation, the Cruising team fellows are using traffic sensor data in downtown Seattle (with identifying information scrubbed daily), combined with [OpenStreetMap](https://www.openstreetmap.org/#map=4/38.01/-95.84) data on intersection connectivity and speed limits. As the traffic sensor data catches only a portion of passing vehicles and identifies their presence within a two-block radius rather than pinpointing their exact location, the team is creating algorithms to estimate probable vehicle paths that indicate "cruising". The final results will be represented by a traffic congestion heat map.
 
-##### == Access to Resources, Education and Investment ==
+### == Access to Resources, Education and Investment ==
 
 UBC fellows Patricia Angkiriwang, Elba Gomez Navas Acevedo, Patrick Laflamme and Shenyi Pan partnered with [United Way Avenues of Change](https://www.uwlm.ca/what-we-do/all-that-kids-can-be/aves-of-change/) and project lead Stacey Rennie at the City of Surrey to create the Early Child Education Project. The team is examining the relationship between early childhood development indicators such as physical, social, emotional and communication skills with indicators in the City’s data to assess vulnerability by neighborhood. They are measuring childhood development trends across B.C., and integrating school satisfaction and residential turnover data into their analysis, which uses the Guildford West neighborhood as a pilot. The project will provide data aimed at increasing access to services, information and support; supporting evidence-based improvements to quality and outcomes; and improving decision-making in planning, investment and research.
 
@@ -49,10 +47,10 @@ The popularity and use of tourist destinations in British Columbia is tracked by
 
 The Investment and Intergovernmental Project is a collaboration with the City of Surrey to develop an [interactive heat map](http://r7l4-asda.stat.ubc.ca/~asda6/), or profile of the City, highlighting the economic competitiveness of individual communities, with features weighted by the user. The project combines City data with business licenses, job postings, property assessments and Canada’s National Household Survey. UBC fellows Rashed Hoque, Tony Hui, Natasha Mattson and Sarah Neubauer are working with Research Analyst Kristine Garrucho and Economic Development Manager Stephen Wu from the City of Surrey. The project is aimed at supporting job creation, innovation and competitiveness, and informing the City’s strategy for attracting investments according to each community’s unique attributes.
 
-##### == Sustainable Agriculture ==
+### == Sustainable Agriculture ==
 
 The Vital Signs project is part of larger effort by the organization [Conservation International](http://www.conservation.org/Pages/default.aspx) to improve data resources and optimize agricultural development and risk management decisions for smallholder farmers in Kenya, Ghana, Tanzania, Rwanda and Uganda. UW fellows Cara Arizmendi, Mitchell Goist, Krista Jones and Robert Shaffer are working with [Vital Signs](http://vitalsigns.org/overview) project leads Matt Cooper and Tabby Njunge, and data scientists Anthony Arendt and Joe Hellerstein. The team utilizes data from national governments along with socioeconomic surveys, groundwater data from NASA satellites, and information collected directly from farmers showing agricultural practices and yields, soil quality, biodiversity and human well-being. The data collection and analysis is being used to determine methods for increasing agricultural resilience to weather and climate events, such as improving seeds and training for farmers, and to build [online platforms](https://indicators.vitalsigns.org/map?layers=%5B%5D) displaying interactive data.
 
-##### == Next Steps ==
+### == Next Steps ==
 
 With the DSSG presentations setting the stage for discussions, the second day of the [CUAC Summit](https://dsi.ubc.ca/news/cascadia-urban-analytics-cooperative-summit-2017) featured lightning talks by faculty and agency representatives, along with group brainstorming sessions about long-term research ideas, detailed in the [CUAC Summit Day 2 blog post](http://cascadiadata.org/news/2017/08/05/cuac-summit.html). CUAC, which is run by the [UW Urbanalytics](http://urbanalytics.uw.edu/) unit and the [UBC Data Science Institute](https://dsi.ubc.ca/), will resume discussions at a [Fall Symposium](http://cascadiadata.org/news/2017/09/01/fall-symposium-information.html) at UW planned for September 2017.

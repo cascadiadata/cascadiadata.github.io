@@ -11,7 +11,7 @@ tags:
 
 ---
 
-#### == September 12-13, 2017 ==
+## == September 12-13, 2017 ==
 
 By Emily F. Keller
 

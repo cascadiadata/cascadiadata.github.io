@@ -11,7 +11,7 @@
 #news main > div{
 	padding: 0 48px;
 }
-#news main .date{
+#news main .date, #news main .author{
 	color: #999;
 }
 #news main .title{

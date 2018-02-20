@@ -10,14 +10,12 @@ tags:
   - Events
   - Data Science for Social Good
 ---
-
-By Emily F. Keller
  
 The first Cascadia Urban Analytics Cooperative (CUAC) Summit took place at the University of British Columbia (UBC) July 13th and 14th, 2017. The first day of the summit consisted of mid-term presentations by Data Science for Social Good summer project teams from the University of Washington (UW) [eScience Institute](http://escience.washington.edu/) and the UBC [Data Science Institute](https://dsi.ubc.ca/), as detailed in the blog post: [CUAC Summit Day 1 - Data Science for Social Good Presentations](http://cascadiadata.org/news/2017/07/30/cuac-summit.html).
 
 The second day of the CUAC Summit consisted of lightning talks by faculty members and local agencies, followed by brainstorming sessions for projects to pursue in the coming year. 
 
-##### == Lightning Talks ==
+### == Lightning Talks ==
 
 Bill Howe, Director of [UW Urbanalytics](http://urbanalytics.uw.edu/), explained the criteria for longer term CUAC research projects: topics of regional importance in which UW and UBC researchers can lead nationally; unexpected use of data and technology; and draws on the defining features of CUAC: two cities with shared political and geographic characteristics spanning an international border. Projects should be primary work for the lead researcher and have at least a six-month plan including data acquisition and an assessment of potential risks, incentives and unintended consequences. Jonathan Fink, Visiting Professor of Urban Analytics at UBC, discussed interest in finding collaborators to add Portland, Oregon to CUAC research in the Cascadia region.
 
@@ -29,7 +27,7 @@ Kim McGrail, Associate Professor in SPPH and Scientific Director of [Population 
 
 Going beyond the Cascadia region, Gundula Proksch, Associate Professor in the UW Department of Architecture, discussed her urban planning research in Sydney and Melbourne, Australia, and her work as a project lead on the [Equitable Futures](http://localhost:4000/#projects) project. 
 
-##### == Research Projects and Ideas ==
+### == Research Projects and Ideas ==
 
 Breakout groups mixing faculty, local agencies, fellows and researchers yielded the following concepts for long-term projects:
 
@@ -77,6 +75,6 @@ Work with city governments to enable a better understanding of data collection, 
 What data do they need? What would they do with that data if they had it?
 What data do they already have? What can they do with it? Can they use the data to better inform data processes?
 
-##### == Get Involved ==
+### == Get Involved ==
 
 CUAC welcomes new projects. To provide background information about existing research that would benefit from connecting to the CUAC community, please [complete a brief survey](http://urbanalytics.uw.edu/#about) via the Urbanalytics website. 

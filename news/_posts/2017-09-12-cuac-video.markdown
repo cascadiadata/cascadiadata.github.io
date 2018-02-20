@@ -8,7 +8,7 @@ tags:
   - Data Science for Social Good
 ---
 
-#### Cascadia Urban Analytics Cooperative Video
+## Cascadia Urban Analytics Cooperative Video
 
 A new Cascadia Urban Analytics Cooperative video showcases the Data Science for Social Good fellowship programs at the University of Washington's [eScience Institute](http://escience.washington.edu/) and the University of British Columbia's [Data Science Institute](https://dsi.ubc.ca/).
 

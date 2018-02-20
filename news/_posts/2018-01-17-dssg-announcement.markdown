@@ -11,7 +11,6 @@ tags:
   
 ---
 
-
 The University of Washington [eScience Institute](http://escience.washington.edu/), in collaboration with the [Cascadia Urban Analytics Cooperative](http://cascadiadata.org/), is excited to announce the fourth offering of the [Data Science for Social Good](http://escience.washington.edu/dssg/) summer program taking place from June 11 - August 17, 2018.
 
 Short proposals are welcome for 10-week data-intensive research projects requiring collaboration in scalable data management, statistical analysis and machine learning, open source software development, cloud and cluster computing, and/or visualization. Accepted projects will be undertaken by a team of four interdisciplinary students, and co-led by an external Project Lead and one or more Data Scientists in the eScience Institute.

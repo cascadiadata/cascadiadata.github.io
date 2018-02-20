@@ -4,7 +4,8 @@ layout: news
 <link rel="stylesheet" href="/css/post.css">
 <section id="news" class="container">
 	<main>
-		<div class="date">{{page.date | date: "%B %d, %Y" }}</div>
+		<div class="date">{{page.date | date: "%B %d, %Y" }}{% if page.author %}</div>
+		{%if page.author%}<div class="author">By {{page.author}} {% endif %}</div>{%endif%}
 		<div class="title">{{page.title}}</div>
 		{% if page.image %}
 		<img src="{{page.image}}">

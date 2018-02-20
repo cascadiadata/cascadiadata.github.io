@@ -10,13 +10,11 @@ tags:
   - Government
 ---
 
-By Emily F. Keller
-
 A new federal bill could bring millions of dollars to municipalities of all sizes to facilitate the adoption of new technologies such as sensors, traffic management systems and environmental monitors, while replacing aging infrastructure.
 
 On October 2, [Senator Maria Cantwell](https://www.cantwell.senate.gov/) (D-WA), [Congresswoman Suzan DelBene](https://delbene.house.gov/) (D-WA), and [Congressman Ben Ray Luján](https://lujan.house.gov/) (D-NM) proposed the [Smart Cities and Communities Act of 2017](https://www.congress.gov/bill/115th-congress/house-bill/3895/text). The bill, H.R. 3895 or S. 1904, would provide $220 million per year, for five years, to fund city government projects, improve federal coordination of smart city programs, enhance cybersecurity and data privacy protections, develop best practices, and support international cooperation and standards. These advancements are intended to improve health, quality of life, energy efficiency, mobility, and safety; reduce pollution and traffic congestion; and promote economic growth and job creation.
 
-##### == Components of the Bill ==
+### == Components of the Bill ==
 
 Annual funding allocations for fiscal years 2018 through 2022 consist of the following:
 * $100 million to create a demonstration grant program supporting the development of smart city technologies and systems that are scalable to cities of various sizes, including measurement standards for assessing performance improvements.
@@ -34,7 +32,7 @@ The bill would also establish an international trade program including missions 
 
 Responsibility for carrying out the tasks involved is centered in the [Department of Commerce](https://www.commerce.gov/) and spread across the Departments of Energy, Housing and Urban Development, Transportation, Health and Human Services, Homeland Security, Labor, and State, working with the National Science Foundation.
 
-##### == Sponsors and Advocates ==
+### == Sponsors and Advocates ==
 
 Congresswoman DelBene is the Co-founder and Co-Chair of the [Congressional Caucus on the Internet of Things](https://www.fedscoop.com/issa-delbene-create-congressional-iot-caucus/), and an advocate for data privacy and WiFi accessibility for underserved communities. She said in a [statement](https://delbene.house.gov/news/documentsingle.aspx?DocumentID=2151), “At a time when so much of the public discourse is about supporting the jobs of tomorrow and making government work for the citizens it serves, the chance to build smart communities in every corner of America should be something we can all agree on. The investments and policy improvements we propose here can improve the quality of life in our communities, reduce pollution and spur job-growth in 21st century jobs.”
 
@@ -46,6 +44,6 @@ Michael Mattmiller, Chief Technology Officer for the City of Seattle, said he lo
 
 “Technologies from low cost sensors to real-time data analytics are helping cities like Seattle operate more efficiently, create economic opportunities, and improve their communities’ quality of life. This legislation will help more local governments implement these smart cities technologies and realize their benefits,” Mattmiller said in a statement.
 
-##### == Next Steps ==
+### == Next Steps ==
 
 Following its introduction, the bill has been referred to the Committees on Energy and Commerce; Science, Space, and Technology; Education and the Workforce; and Foreign Affairs in the House of Representatives; and to the Senate Committee on Commerce, Science, and Transportation for consideration.

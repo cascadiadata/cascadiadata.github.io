@@ -12,15 +12,13 @@ tags:
   - Events
 ---
 
-By Emily F. Keller
-
 To understand trends in housing affordability, neighborhood change and multi-modal transportation systems in the Cascadia region, researchers, public agencies and community stakeholders are taking a multifaceted view. 
 
 Examining urban ecology and migration patterns, homelessness and development in relation to transit network planning and population health indicators was the subject of discussion at the Cascadia Urban Analytics Cooperative (CUAC) [Fall Symposium](http://cascadiadata.org/news/2017/09/01/fall-symposium-information.html) September 11-12, 2017. The event took place at the University of Washington (UW), following the [CUAC Summit](http://cascadiadata.org/news/2017/07/30/cuac-summit.html) at the University of British Columbia (UBC) in July. 
 
 The goal of the symposium was to identify collaborative research projects to pursue in the coming year by bringing students and faculty together from a diverse range of disciplines and departments. CUAC supports projects with a regional focus, participation at UW and UBC, a connection to government or community stakeholders to bridge research and policy, and an innovative use of complex data.
 
-#### == Day 1: Urban Data Research in the Cascadia Region ==
+## == Day 1: Urban Data Research in the Cascadia Region ==
 
 The first day of the symposium brought together 35 faculty and students from UW, UBC and Western Washington University. With CUAC’s interdisciplinary focus, the session drew researchers who study evictions, migration between rural and urban areas, open data management, electronic fare card data, senior housing, behavioral science, social determinants of health, child welfare, climate and energy policies, modeling and simulation tools, network data, inclusive survey design, and comparative law. Bill Howe, Director of [Urbanalytics](http://urbanalytics.uw.edu/) at UW, moderated the discussion.
 
@@ -32,7 +30,7 @@ Discussions around the cross-cutting theme of responsible data management center
 
 Many of the symposium participants, including faculty from the newly created [Department of Real Estate in the College of Built Environments](http://realestate.washington.edu/about/think-runstad/directors-message/), were meeting to discuss overarching issues for the first time. They included professors and students in the fields of landscape architecture, data science, urban analytics, neuroscience, community and regional planning, sociology, nursing and health care, urban design and planning, social work, statistics, computer science and engineering, real estate, population and public health, and civil engineering. 
 
-#### == Day 2: International Standards for Urban Metrics ==
+## == Day 2: International Standards for Urban Metrics ==
 
 On the second day of the symposium, Jonathan Fink, Visiting Professor of Urban Analytics at UBC, led a discussion on uniform urban metrics for sustainability and performance approved by the International Standards Organization (ISO) in 2014. The standard, [ISO 37120](https://www.iso.org/standard/62436.html), enables the comparison of data across 17 themes from environment, wastewater and urban planning to education, transportation and shelter in cities around the world.
 
@@ -53,7 +51,7 @@ The discussion explored research and operational opportunities for incorporating
 
 Measuring common indicators in a uniform way provides new opportunities for comparability at the city-to-city scale. Participants also noted the importance of tracking granular data, such as neighborhood-specific metrics, to show potential inequalities between geographic or demographic populations within each city that are not apparent when viewing average numbers. 
 
-#### == Get Involved ==
+## == Get Involved ==
 
 CUAC welcomes new projects. To provide background information about existing research that would benefit from connecting to the CUAC community, please [complete a brief survey](http://urbanalytics.uw.edu/#about) via the Urbanalytics website. 
 

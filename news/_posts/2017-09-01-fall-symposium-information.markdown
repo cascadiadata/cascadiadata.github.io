@@ -11,7 +11,7 @@ tags:
   
 ---
 
-#### == September 11, 2017: 1-5pm ==
+## == September 11, 2017: 1-5pm ==
 
 The goal of this invitation-only event is to identify joint projects to pursue in the coming year, and to build the CUAC community.  We will be emphasizing existing projects with their own inertia that can benefit from CUAC engagement (analytics support, gap funding, cross-border connections).
 
@@ -23,7 +23,7 @@ Location: The Husky Union Building at the University of Washington, Room 214, 40
 
 > The Cascadia Urban Analytics Cooperative is an applied, interdisciplinary, regional center that brings together academic researchers, students, and public stakeholder groups to address topics affecting citizens of the Cascadia region.
 
-#### Schedule:
+## Schedule:
 
 * 12:30 Lunch
 * 1:00-1:10 Overview: What CUAC is about, goals, what we’re looking for, what the “ideal” projects look like - Bill Howe, Director, UW Urbanalytics.
@@ -40,7 +40,7 @@ Location: The Husky Union Building at the University of Washington, Room 214, 40
 * 4:45-5:00 Wrap up and next steps
 * 5:00-6:00 Break and travel to dinner at Agua Verde, 1303 NE Boat Street
 
-#### == September 12, 2017: 8:00am-12:00pm ==
+## == September 12, 2017: 8:00am-12:00pm ==
 
 Discussion on “The Promise of Uniform Urban Metrics”
 

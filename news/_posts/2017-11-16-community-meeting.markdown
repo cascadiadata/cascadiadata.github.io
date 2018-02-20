@@ -10,7 +10,7 @@ tags:
   - Events
 ---
 
-#### == December 5, 2017: 2-4pm ==
+## == December 5, 2017: 2-4pm ==
 
  The goal of this invitation-only event is to present ongoing urban data projects in the Seattle and Vancouver metropolitan areas. Presentation topics will include responsible data, housing and homelessness, accessible routing, transportation data collection, and metrics for understanding equity and change across neighborhoods.
 
