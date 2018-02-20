@@ -28,12 +28,27 @@
 		border-color: #F9CE06;
 	}
 	.scroll-view{
-		overflow: scroll;
+		overflow-x: scroll;
 		width: 100%;
 		white-space: nowrap;
 		padding: 20px 48px;
 		-webkit-overflow-scrolling: touch;
 		transition: none;
+	}
+	.scroll-view::-webkit-scrollbar {
+		width: 10px;
+	}
+	 
+	.scroll-view::-webkit-scrollbar-track {
+		border: 1px solid #ddd;
+		background-color: #fafafa;
+		border-radius: 10px;
+		margin: 32px;
+	}
+	 
+	.scroll-view::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		background-color: #F9CE06;
 	}
 	.project{
 		width: 200px;
