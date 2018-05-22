@@ -89,6 +89,12 @@
   socials:
     - link: https://www.washington.edu/research/research-centers/washington-state-transportation-center-trac/ 
       type: website         
+- image: gundula_proksch.jpg
+  name: Gundula Proksch
+  description: Associate Professor of Architecture, College of the Built Environments, UW
+  socials:
+    - link: http://arch.be.uw.edu/people/gundula-proksch/ 
+      type: website  
 - image: gregg_colburn.jpg
   name: Gregg Colburn
   description: Assistant Professor, College of Built Environments, Department of Real Estate, UW
