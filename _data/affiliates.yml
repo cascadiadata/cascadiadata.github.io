@@ -106,6 +106,12 @@
       type: website
     - link: http://twitter.com/timthomas
       type: twitter
+- image: mike_babb.jpg
+  name: Mike Babb
+  description: Graduate Studentm Department of Geography, UW
+  socials:
+    - link: https://geography.washington.edu/people/mike-babb 
+      type: website
 - image: penny_gurstein.jpg
   name: Penny Gurstein
   description: Professor, School of Community and Regional Planning, UBC
