@@ -14,14 +14,14 @@ A group of University of Washington researchers have published a new report high
 
 The authors are [Timothy A. Thomas](https://timathomas.github.io/), [Ott Toomet](https://ischool.uw.edu/people/faculty/profile/otoomet), [Ian Kennedy](https://soc.washington.edu/people/ian-kennedy), and [Alex Ramiller](https://geography.washington.edu/people/alexander-ramiller).
 
-The project was formed in summer of 2018 to measure and analyze evictions in Washington State through court records, census data, and housing market statistics. The project combines data science techniques with demographic, urban sociology, and economic theory to examine the relationship between rent, neighborhood change, homelessness, evictions and housing insecurity.
+The project was formed in the summer of 2018 to measure and analyze evictions through court records, census data and housing market statistics. The project combines data science techniques with demographic, urban sociology, and economic theory to examine the relationship between rent, neighborhood change, homelessness, evictions and housing insecurity.
 
 Results from the study include:
 * Between 2013 and 2017, 1 in 55 adults in Washington State were evicted (totaling 130,203 people).
-* In Pierce County, 1 in 6 black adults were evicted from 2013-2017, compared to 1 in 50 white adults. In King County, 1 in 11 black adults were evicted during that time period, compared to 1 in 100 white adults.
+* In Pierce County, 1 in 6 black adults were evicted from 2013-2017, compared with 1 in 50 white adults. In King County, 1 in 11 black adults were evicted during that time period, compared with 1 in 100 white adults.
 * 80% to 90% of evictions are due to falling behind on rent, with more than 1/3 of defendants contributing over 80% of their income to rent.
 * Only 8% of defendants had legal representation during the eviction process.
 
-Timothy Thomas co-leads the Neighborhood Change Project, supported by the Cascadia Urban Analytics Cooperative, which investigates the effects of neighborhood change and segregation on racial and socioeconomic differences in health, housing, migration, and poverty. For more information, read [Quantifying Displacement of Seattle and King County Residents](https://www.cascadiadata.org/news/2018/09/20/neighborhood-change-project.html).
+Timothy Thomas co-leads the [Neighborhood Change Project](https://www.cascadiadata.org/projects/neighborhood-change-project), supported by the Cascadia Urban Analytics Cooperative, which investigates the effects of neighborhood change and segregation on racial and socioeconomic differences in health, housing, migration, and poverty. For more information, read [Quantifying Displacement of Seattle and King County Residents](https://www.cascadiadata.org/news/2018/09/20/neighborhood-change-project.html).
 
-The Evictions Project is also funded by the Gordon and Betty Moore Foundation, the Alfred P. Sloan Foundation, the Washington Research Foundation, and Enterprise Community Partners.
+The Evictions Project is also funded by the Gordon and Betty Moore Foundation, the Alfred P. Sloan Foundation, the Washington Research Foundation and Enterprise Community Partners.
