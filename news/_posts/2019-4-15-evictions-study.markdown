@@ -4,7 +4,7 @@ title:  UW Evictions Project Provides Living Document
 date:   2019-04-15 1:57:12
 excerpt:
   
-  A group of researchers has published a new report titled, The State of Evictions: Results from the University of Washington Evictions Project.
+  A group of University of Washington researchers have published a new report examining evictions and housing insecurity trends in Washington State
 author: Emily F. Keller
 tags:
   - Housing
