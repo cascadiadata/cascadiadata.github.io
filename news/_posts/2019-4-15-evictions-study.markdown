@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  UW Evictions Project Provides Living Document
+title:  'Evictions Project' Examines Demographic and Economic Trends in Washington State
 date:   2019-04-15 1:57:12
 excerpt:
   
