@@ -10,7 +10,7 @@ tags:
   - Housing
   
 ---
-A group of University of Washington researchers has published a new report highlighting demographic trends in home evictions and their impact on homelessness in Washington state. The report, ["The State of Evictions: Results from the University of Washington Evictions Project"](https://evictions.study), has been published as a living website that will be updated as further research progresses.
+A group of University of Washington researchers have published a new report highlighting demographic trends in home evictions and their impact on homelessness in Washington state. The report, ["The State of Evictions: Results from the University of Washington Evictions Project"](https://evictions.study), has been published as a living website that will be updated as further research progresses.
 
 The authors are [Timothy A. Thomas](https://timathomas.github.io/), [Ott Toomet](https://ischool.uw.edu/people/faculty/profile/otoomet), [Ian Kennedy](https://soc.washington.edu/people/ian-kennedy), and [Alex Ramiller](https://geography.washington.edu/people/alexander-ramiller).
 
