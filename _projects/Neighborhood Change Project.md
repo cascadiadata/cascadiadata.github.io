@@ -7,7 +7,7 @@ facilities: [UBC, UW]
 categories: [Housing Stability]
 participants:
   - Tim Thomas
-  - Michael Babb
+  - Mike Babb
 thumbnail: /images/projects/thumbnails/Neighborhood-Research-Collective.png
 ---
 
