@@ -11,7 +11,7 @@ tags:
   
 ---
 
-On Wednesday, August 21st, four interdisciplinary teams will present the results of their work this summer at the [Data Science for Social Good (DSSG)](https://escience.washington.edu/dssg/) program at the UW [eScience Institute's](https://escience.washington.edu/).
+On Wednesday, August 21st, four interdisciplinary teams will present the results of their work this summer at the [Data Science for Social Good (DSSG)](https://escience.washington.edu/dssg/) program at the UW [eScience Institute](https://escience.washington.edu/).
 
 The DSSG program brings together student fellows, stakeholders, and data and domain researchers to work on focused, collaborative projects for societal benefit. Fifteen fellows will present the exciting results of their 10-week [data science-focused projects](https://escience.washington.edu/2019-data-science-for-social-good-projects/) at this event. You can learn more about the team members [here](https://escience.washington.edu/data-science-for-social-good-teams-summer-2019/).
 
