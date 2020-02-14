@@ -19,6 +19,7 @@ On May 9th, 2019, Governor Jay Inslee signed Senate Bill 5600 into law, bringing
 
 For more information:
 *  [UW study reveals gender, racial disparities in evictions](https://www.washington.edu/news/2020/02/10/uw-study-reveals-gender-racial-disparities-in-evictions/)
+*  [Study: See which western Washington neighborhoods have a higher risk for evictions](https://www.king5.com/article/news/local/western-washington-evictions-study-university-of-washington/281-02884baa-bdb8-48ea-bbb8-f9fc37c724d7)
 *  [Washington State Legislature Passes Landlord-Tenant Reforms Supported by CUAC Research](https://www.cascadiadata.org/news/2019/05/15/evictions_legislation.html)
 * [Evictions Project Examines Demographic and Economic Trends in Washington State](https://www.cascadiadata.org/news/2019/04/15/evictions-study.html)
 * [Quantifying Displacement of Seattle and King County Residents](https://www.cascadiadata.org/news/2018/09/20/neighborhood-change-project.html)
