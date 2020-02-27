@@ -4,7 +4,7 @@ title:  CUAC Releases Program Report Highlighting Collaborative Research Across 
 date:   2020-02-25 1:57:12
 excerpt:
   
-  [EXCERPT]
+  The Cascadia Urban Analytics Cooperative has released a program report highlighting collaborative research between the University of Washington and the University of British Columbia over the last three years.
 author: Emily F. Keller
 tags:
   
