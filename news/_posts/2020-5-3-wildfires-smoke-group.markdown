@@ -5,7 +5,7 @@ date:   2020-05-3 1:57:12
 image:  /images/news/smoke.jpg
 excerpt:
   
-  [EXCERPT]
+  Researchers and policy experts from across the Cascadia region have launched a multi-sector collaboration to address intersecting issues related to forest fires, forest management, public health, climate change, city planning and emergency management.
 author: Emily F. Keller
 tags:
   
