@@ -100,7 +100,7 @@
   description: Assistant Professor, College of Built Environments, Department of Real Estate, UW
 - image: tim_thomas.jpg
   name: Tim Thomas
-  description: Postdoctoral Scholar, Urban Displacement Project, University of California Berkeley
+  description: Research Director, Urban Displacement Project, University of California Berkeley
   socials:
     - link: http://www.timothyathomas.com/ 
       type: website
@@ -134,7 +134,10 @@
       type: twitter
 - image: kate_gotziaman.jpg
   name: Kate Gotziaman 
-  description: JD Candidate, UBC Allard School of Law
+  description: Lawyer, Lidstone & Company; JD, UBC Allard School of Law
+  socials:
+    - link: https://lidstone.info/team/kate-gotziaman/
+      type: website   
 - image: greyson_blue.jpeg
   name: Greyson Blue
   description: Hazelton Fellow, UW School of Law
@@ -186,7 +189,7 @@
   description: Assistant Professor of Real Estate, UW
 - image: kivan_polimis.jpg
   name: Kivan Polimis
-  description: Program Coordinator, Data Science for Social Good, UW
+  description: Data Scientist, MAANA; Ph.D., Sociology, UW
   socials:
     - link: http://kivanpolimis.com
       type: website
