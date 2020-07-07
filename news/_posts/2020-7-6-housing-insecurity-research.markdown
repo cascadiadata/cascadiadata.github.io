@@ -10,6 +10,8 @@ author: Emily F. Keller
 tags:
   
 ---
+<i>(Data visualization from the Baltimore Eviction Map)</i>
+
 Interdisciplinary research about neighborhood dynamics in the Cascadia region is growing in both scope and geography to address new risks of housing insecurity across the United States in relation to COVID-19. Research led by [Dr. Timothy A. Thomas](https://timathomas.github.io/), a former UW researcher and co-lead of the Cascadia Urban Analytics Cooperative (CUAC) [Neighborhood Change Project](https://www.cascadiadata.org/projects/neighborhood-change-project), is expanding to urban areas in California, Maryland and around the country to address the dynamic circumstances resulting from the pandemic and its impact on neighborhoods.
 
 Thomas is the newly appointed Research Director for the University of California (UC) Berkeley’s [Urban Displacement Project](https://www.urbandisplacement.org/) (UDP), and lead researcher for [The Evictions Study](https://evictions.study/), an ongoing collaboration between UW and UC Berkeley. Updates from both entities are detailed below.
