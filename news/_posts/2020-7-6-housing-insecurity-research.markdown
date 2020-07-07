@@ -5,7 +5,7 @@ date:   2020-07-6 1:57:12
 image:  /images/news/baltimore_housing.jpeg
 excerpt: 
 
-  EXCERPT
+  Research on housing insecurity and evictions in the Cascadia region grows to include urban areas around the U.S.
 author: Emily F. Keller
 tags:
   
