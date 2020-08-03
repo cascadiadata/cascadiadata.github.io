@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cascadia Law Initiative Releases Final Report
+title:  Cascadia Law Initiative Releases Practical Guide
 date:   2020-07-2 1:57:12
 image:  /images/news/margot_hugh.jpeg
 excerpt: 
