@@ -24,6 +24,7 @@ In April 2020, the Urban Displacement Project received a grant from the newly cr
 
 
 For more information:
+*  [Baltimore City to Provide Free Legal Representation to Tenants Facing Eviction](https://www.cascadiadata.org/news/2020/12/08/Baltimore_law.html)
 *  [Study: providing lawyers for Baltimore tenants to fight eviction can save city and state money](https://www.baltimoresun.com/maryland/baltimore-city/bs-md-ci-eviction-free-lawyers-20200518-fbf6fpn2kzatbkwuezc5wktpz4-story.html)
 *  [UW study reveals gender, racial disparities in evictions](https://www.washington.edu/news/2020/02/10/uw-study-reveals-gender-racial-disparities-in-evictions/)
 *  [Study: See which western Washington neighborhoods have a higher risk for evictions](https://www.king5.com/article/news/local/western-washington-evictions-study-university-of-washington/281-02884baa-bdb8-48ea-bbb8-f9fc37c724d7)
